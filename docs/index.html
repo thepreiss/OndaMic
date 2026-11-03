@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidade — OndaMic</title>
+  <style>
+    :root {
+      --bg: #090C10;
+      --card: #121822;
+      --cyan: #00E5FF;
+      --emerald: #00E676;
+      --text: #F3F6FA;
+      --muted: #9BA9BC;
+      --border: #253247;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 840px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    header {
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 24px;
+      margin-bottom: 32px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 999px;
+      font-size: 0.85rem;
+      font-weight: 600;
+      background: rgba(0, 229, 255, 0.12);
+      color: var(--cyan);
+      border: 1px solid rgba(0, 229, 255, 0.3);
+      margin-bottom: 12px;
+    }
+    h1 {
+      font-size: 2.2rem;
+      color: var(--cyan);
+      margin: 0 0 8px;
+    }
+    h2 {
+      font-size: 1.4rem;
+      color: var(--emerald);
+      margin-top: 32px;
+      border-left: 3px solid var(--emerald);
+      padding-left: 12px;
+    }
+    p, li {
+      color: var(--text);
+      font-size: 1.05rem;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    footer {
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    .lang-switch {
+      float: right;
+      font-size: 0.9rem;
+    }
+    .lang-switch a {
+      color: var(--cyan);
+      text-decoration: none;
+      margin-left: 12px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="badge">100% OFFLINE • PRIVACIDADE POR DESIGN</div>
+      <h1>Política de Privacidade — OndaMic</h1>
+      <p style="color: var(--muted); margin: 0;">Aplicativo: <strong>OndaMic — Seu Android vira um microfone</strong> (<code>com.ondamic.app</code>)<br>Última atualização: Novembro de 2026</p>
+    </header>
+
+    <div class="card">
+      <strong style="color: var(--emerald);">Compromisso Fundamental:</strong> O <strong>OndaMic</strong> foi desenvolvido com base no princípio de <strong>Privacidade Absoluta</strong>. O aplicativo é <strong>100% offline</strong> e <strong>não possui a permissão de acesso à Internet</strong> (<code>android.permission.INTERNET</code>). É tecnicamente impossível que sua voz, dados ou telemetria sejam enviados para fora do seu aparelho.
+    </div>
+
+    <h2>1. Coleta e Transmissão de Dados</h2>
+    <p>O OndaMic <strong>não coleta, não armazena em servidores remotos, não compartilha e não vende</strong> nenhum tipo de dado pessoal, identificador de dispositivo ou conteúdo de voz.</p>
+    <ul>
+      <li><strong>Sem Permissão de Internet:</strong> O aplicativo não conecta a nenhum servidor, API ou serviço externo na nuvem.</li>
+      <li><strong>Zero Rastreadores:</strong> Não utilizamos nenhum SDK de analytics, anúncios, rastreamento comportamental ou telemetria invasiva de terceiros.</li>
+    </ul>
+
+    <h2>2. Uso do Microfone (Permissão <code>RECORD_AUDIO</code>)</h2>
+    <p>A permissão de microfone é estritamente utilizada em tempo real para as funções essenciais solicitadas pelo usuário:</p>
+    <ul>
+      <li>Capturar sua fala em tempo real para amplificá-la imediatamente em caixas de som (conectadas via cabo P2, USB-C ou Bluetooth) ou no alto-falante integrado.</li>
+      <li>Aplicar processamento de sinal digital local (DSP): controle de ganho, supressão de microfonia (filtros notch), equalização, redução de ruído e efeitos de palco (brilho, reverb e eco).</li>
+      <li>Todo o fluxo de áudio é processado na memória RAM volátil do seu telefone e descartado após a reprodução.</li>
+    </ul>
+
+    <h2>3. Gravação Local Simultânea (Opcional)</h2>
+    <p>Caso o usuário ative voluntariamente o recurso de <em>Gravação Local Simultânea em WAV</em>:</p>
+    <ul>
+      <li>Os arquivos de áudio gravados são salvos exclusivamente no armazenamento interno privado do próprio aplicativo no dispositivo do usuário.</li>
+      <li>Nenhum arquivo gravado é compartilhado automaticamente. Qualquer compartilhamento só ocorre por ação explícita do usuário (utilizando o menu nativo de compartilhamento do Android).</li>
+      <li>O usuário pode excluir suas gravações a qualquer momento diretamente pela interface do aplicativo.</li>
+    </ul>
+
+    <h2>4. Permissões de Dispositivos Conectados (Bluetooth)</h2>
+    <p>A permissão <code>BLUETOOTH_CONNECT</code> (em versões modernas do Android) é utilizada unicamente para detectar se caixas de som ou fones Bluetooth estão pareados e conectados, permitindo direcionar o áudio com segurança e ativar o kill-switch anti-microfonia em caso de desconexão acidental.</p>
+
+    <h2>5. Serviço em Primeiro Plano (Foreground Service)</h2>
+    <p>O aplicativo utiliza um serviço em primeiro plano do tipo <code>microphone</code> exclusivamente enquanto o microfone estiver ativado pelo usuário. Isso garante que a amplificação da sua voz não seja cortada quando a tela do telefone apagar ou bloquear durante uma palestra ou evento. Uma notificação com o botão de interrupção imediata permanece visível durante todo o uso.</p>
+
+    <h2>6. Contato e Código Aberto</h2>
+    <p>O OndaMic é um projeto de código aberto e transparente. Você pode auditar o código-fonte completo no GitHub:</p>
+    <p><a href="https://github.com/thepreiss/OndaMic" style="color: var(--cyan); text-decoration: none;">🔗 Repositório Oficial do OndaMic no GitHub</a></p>
+
+    <footer>
+      <p>© 2026 thepreiss & OndaMic Contributors. Distribuído sob Licença MIT.</p>
+    </footer>
+  </div>
+</body>
+</html>
