@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — আপনার অ্যান্ড্রয়েড স্মার্টফোনটিকে একটি পেশাদার লাইভ পকেট মাইক্রোফোনে রূপান্তর করুন!
 
-(Store listing optimized for Bangla (Bangladesh) - bn-BD)
+একটি ডেডিকেটেড মাইক্রোফোন ছাড়াই একটি ক্লাস শেখাতে, একটি উপস্থাপনা দিতে, একটি ইভেন্টের নেতৃত্ব দিতে, ঘোষণা করতে বা কারাওকে গাইতে হবে? OndaMic আপনার ফোনকে 3.5mm Aux (P2), USB-C, বা ব্লুটুথের মাধ্যমে বহিরাগত স্পিকারের জন্য একটি বহুমুখী লাইভ মাইক্রোফোনে রূপান্তরিত করে — 100% বিনামূল্যে, শূন্য বিজ্ঞাপন এবং 100% অফলাইন৷
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 মূল বৈশিষ্ট্য:
+• সাফ কল মোড (ভয়েস ফোকাস) এবং স্টুডিও লো-লেটেন্সি মোড
+• মনো এবং ট্রু ডুয়াল-মাইক স্টেরিও (বাম + ডান বিভক্ত চ্যানেল)
+• ফিজিক্যাল মাইক্রোফোন ক্যাপসুল এবং পোলার ডিরেকশন নির্বাচন করুন (সামনে, পিছনে, 360°)
+• ইন্টেলিজেন্ট অ্যান্টি-ফিডব্যাক শিল্ড: অটো-নচ ফিল্টার এবং 180° ফেজ ফ্লিপ
+• ভোকাল ইফেক্টস: উজ্জ্বলতা, স্টেজ রিভার্ব, ইকো ডিলে এবং 5-ব্যান্ড ইকুয়ালাইজার
+• স্টেজ রেডি: পুশ-টু-টক (স্ক্রিন এবং ভলিউম কী), VOX, কাশি/নিঃশব্দ বোতাম এবং চিম
+• 100% অফলাইন এবং ব্যক্তিগত: কোন ইন্টারনেট অনুমতি নেই। আপনার ভয়েস কখনই আপনার ডিভাইস ছেড়ে যায় না।

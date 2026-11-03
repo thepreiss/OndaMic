@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — เปลี่ยนสมาร์ทโฟน Android ของคุณให้เป็นไมโครโฟนพกพาสดระดับมืออาชีพ!
 
-(Store listing optimized for Thai - th)
+ต้องการสอนในชั้นเรียน นำเสนอ เป็นผู้นำกิจกรรม ประกาศ หรือร้องเพลงคาราโอเกะโดยไม่ใช้ไมโครโฟนเฉพาะใช่ไหม OndaMic เปลี่ยนโทรศัพท์ของคุณให้เป็นไมโครโฟนถ่ายทอดสดอเนกประสงค์สำหรับลำโพงภายนอกผ่าน 3.5 มม. Aux (P2), USB-C หรือ Bluetooth - ฟรี 100% ไม่มีโฆษณา และออฟไลน์ 100%
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 คุณสมบัติที่สำคัญ:
+• โหมดการโทรที่ชัดเจน (โฟกัสด้วยเสียง) และโหมด Studio Low-Latency
+• Mono & True Dual-Mic Stereo (ช่องแยกซ้าย + ขวา)
+• เลือกแคปซูลไมโครโฟนทางกายภาพและทิศทางเชิงขั้ว (ด้านหน้า, ด้านหลัง, 360°)
+• แผงป้องกันการตอบสนองอัจฉริยะ: ตัวกรองรอยบากอัตโนมัติ & การพลิกเฟส 180°
+• เอฟเฟกต์เสียงร้อง: ความสว่าง, เสียงสะท้อนของเวที, ดีเลย์เสียงสะท้อน และอีควอไลเซอร์ 5 แบนด์
+• เวทีพร้อม: Push-to-Talk (หน้าจอและปุ่มปรับระดับเสียง), VOX, ปุ่มไอ/ปิดเสียง และเสียงระฆัง
+• ออฟไลน์และเป็นส่วนตัว 100%: ไม่ได้รับอนุญาตจากอินเทอร์เน็ต เสียงของคุณจะไม่ออกจากอุปกรณ์ของคุณ

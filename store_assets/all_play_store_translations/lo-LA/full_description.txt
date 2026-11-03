@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — ປ່ຽນ​ໂທລະ​ສັບ​ສະ​ຫຼາດ Android ຂອງ​ທ່ານ​ເປັນ​ໄມ​ໂຄ​ໂຟນ​ກະ​ເປົ໋າ​ທີ່​ມີ​ຊີ​ວິດ​ເປັນ​ມື​ອາ​ຊີບ​!
 
-(Store listing optimized for Lao - lo-LA)
+ຕ້ອງ​ການ​ສອນ​ໃນ​ຫ້ອງ​ຮຽນ​, ການ​ນໍາ​ສະ​ເຫນີ​, ນໍາ​ພາ​ກິດ​ຈະ​ກໍາ​, ເຮັດ​ໃຫ້​ປະ​ກາດ​, ຫຼື​ຮ້ອງ​ຄາ​ລາ​ໂອ​ເກະ​ໂດຍ​ບໍ່​ມີ​ໄມ​ໂຄ​ໂຟນ​? OndaMic ປ່ຽນໂທລະສັບຂອງທ່ານໃຫ້ເປັນໄມໂຄຣໂຟນທີ່ມີຊີວິດຊີວາທີ່ຫຼາກຫຼາຍສຳລັບລຳໂພງພາຍນອກຜ່ານ 3.5mm Aux (P2), USB-C, ຫຼື Bluetooth — 100% ຟຣີ, ບໍ່ມີໂຄສະນາ ແລະ 100% ອອບລາຍ.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 ຄຸນນະສົມບັດທີ່ສໍາຄັນ:
+• ໂໝດການໂທທີ່ຈະແຈ້ງ (ໂຟກັສດ້ວຍສຽງ) ແລະ ໂໝດການຕອບສະໜອງຕໍ່າຂອງ Studio
+• Mono & True Dual-Mic Stereo (ຊ່ອງແຍກຊ້າຍ + ຂວາ)
+• ເລືອກ Physical Microphone Capsule & Polar Direction (ທາງໜ້າ, ຫລັງ, 360°)
+• ໄສ້ຕ້ານການຕິຊົມອັດສະລິຍະ: ຕົວກອງອັດຕະໂນມັດ Notch & Flip ໄລຍະ 180°
+• ເອັບເຟັກສຽງ: ຄວາມສະຫວ່າງ, ການສະແດງຜົນຂອງຂັ້ນຕອນ, ການຊັກຊ້າຂອງສຽງສະທ້ອນ ແລະ 5-Band Equalizer
+• ຂັ້ນຕອນພ້ອມແລ້ວ: Push-to-Talk (ໜ້າຈໍ ແລະປຸ່ມສຽງ), VOX, ປຸ່ມໄອ/ປິດສຽງ ແລະກະດິ່ງ
+• 100% Offline & Private: ບໍ່ມີການອະນຸຍາດອິນເຕີເນັດ. ສຽງຂອງເຈົ້າບໍ່ເຄີຍອອກຈາກອຸປະກອນຂອງທ່ານ.

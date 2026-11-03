@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic - உங்கள் ஆண்ட்ராய்டு ஸ்மார்ட்போனை ஒரு தொழில்முறை நேரடி பாக்கெட் மைக்ரோஃபோனாக மாற்றவும்!
 
-(Store listing optimized for Tamil - ta-IN)
+பிரத்யேக மைக்ரோஃபோன் இல்லாமல் ஒரு வகுப்பில் கற்பிக்க வேண்டுமா, விளக்கக்காட்சி வழங்க வேண்டுமா, நிகழ்வை நடத்த வேண்டுமா, அறிவிப்புகளைச் செய்ய வேண்டுமா அல்லது கரோக்கி பாட வேண்டுமா? 3.5mm Aux (P2), USB-C அல்லது Bluetooth - 100% இலவசம், பூஜ்ஜிய விளம்பரங்கள் மற்றும் 100% ஆஃப்லைன் மூலம் வெளிப்புற ஸ்பீக்கர்களுக்கான பல்துறை நேரடி மைக்ரோஃபோனாக OndaMic உங்கள் மொபைலை மாற்றுகிறது.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 முக்கிய அம்சங்கள்:
+• அழைப்பு முறை (வாய்ஸ் ஃபோகஸ்) & ஸ்டுடியோ லோ-லேட்டன்சி பயன்முறையை அழிக்கவும்
+• மோனோ & ட்ரூ டூயல்-மைக் ஸ்டீரியோ (இடது + வலது பிரிக்கப்பட்ட சேனல்கள்)
+• இயற்பியல் மைக்ரோஃபோன் கேப்சூல் & துருவ திசையைத் தேர்ந்தெடுக்கவும் (முன், பின், 360°)
+• புத்திசாலித்தனமான கருத்து எதிர்ப்புக் கேடயம்: ஆட்டோ-நாட்ச் வடிகட்டி & 180° ஃபேஸ் ஃபிளிப்
+• குரல் விளைவுகள்: பிரகாசம், ஸ்டேஜ் ரிவெர்ப், எக்கோ டிலே & 5-பேண்ட் ஈக்வலைசர்
+• மேடை தயார்: புஷ்-டு-டாக் (ஸ்கிரீன் & வால்யூம் கீகள்), VOX, இருமல்/முடக்கு பொத்தான் & சைம்
+• 100% ஆஃப்லைன் & தனிப்பட்டது: இணைய அனுமதி இல்லை. உங்கள் குரல் உங்கள் சாதனத்தை விட்டு வெளியேறாது.

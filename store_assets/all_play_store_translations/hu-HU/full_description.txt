@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — Alakítsa Android okostelefonját professzionális élő zsebmikrofonná!
 
-(Store listing optimized for Hungarian - hu-HU)
+Osztályt kell tanítania, prezentációt tartania, rendezvényt vezetnie, bejelentéseket kell tennie vagy karaokét kell énekelnie dedikált mikrofon nélkül? Az OndaMic a telefonját egy sokoldalú élő mikrofonná alakítja külső hangszórókhoz 3,5 mm-es Aux (P2), USB-C vagy Bluetooth segítségével – 100%-ban ingyenes, hirdetések nélkül és 100%-ban offline.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 Főbb jellemzők:
+• Clear Call Mode (Voice Focus) és Studio Low-Latency Mode
+• Mono és True Dual-Mic sztereó (bal + jobb elválasztott csatornák)
+• Fizikai mikrofon kapszula és poláris irány kiválasztása (elöl, hátul, 360°)
+• Intelligens visszacsatolásgátló pajzs: Auto-Notch szűrő és 180°-os fázisfordítás
+• Énekeffektusok: fényerő, színpadi visszhang, visszhang késleltetés és 5 sávos hangszínszabályzó
+• Színpad készen: Push-to-Talk (képernyő és hangerőszabályzók), VOX, köhögés/némítás gomb és csengő
+• 100%-ban offline és privát: Nincs internetengedély. Hangja soha nem hagyja el a készüléket.

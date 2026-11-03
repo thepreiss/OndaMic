@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — Pretvorite svoj Android pametni telefon u profesionalni džepni mikrofon uživo!
 
-(Store listing optimized for Croatian - hr)
+Trebate održati predavanje, održati prezentaciju, voditi događaj, dati najave ili pjevati karaoke bez namjenskog mikrofona? OndaMic pretvara vaš telefon u svestrani mikrofon uživo za vanjske zvučnike putem 3,5 mm Aux (P2), USB-C ili Bluetooth veze — 100% besplatno, bez oglasa i 100% offline.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 Ključne značajke:
+• Način jasnog poziva (glasovni fokus) i studijski način niske latencije
+• Mono & True Dual-Mic Stereo (lijevi + desni odvojeni kanali)
+• Odaberite fizičku kapsulu mikrofona i polarni smjer (sprijeda, straga, 360°)
+• Inteligentni Anti-Feedback Shield: Auto-Notch filter i 180° fazni flip
+• Vokalni efekti: Svjetlina, Stage Reverb, Echo Delay i 5-pojasni ekvilajzer
+• Spreman za pozornicu: Push-to-Talk (zaslon i tipke za glasnoću), VOX, gumb za kašalj/isključivanje zvuka i zvono
+• 100% izvanmrežno i privatno: Nema internetske dozvole. Vaš glas nikada ne napušta vaš uređaj.

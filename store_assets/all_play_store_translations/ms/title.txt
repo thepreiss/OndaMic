@@ -1,1 +1,1 @@
-OndaMic: Live Mic [ms]
+OndaMic: Mikrofon Langsung

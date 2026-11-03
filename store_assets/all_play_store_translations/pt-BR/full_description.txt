@@ -1,13 +1,12 @@
-OndaMic — Seu Android vira um microfone profissional de bolso!
+OndaMic — Transforme seu smartphone Android em um microfone profissional de bolso ao vivo!
 
-Precisa dar uma aula, fazer uma palestra, conduzir um evento, anunciar em uma loja ou cantar no karaokê e não tem um microfone dedicado? O OndaMic transforma seu smartphone Android em um microfone versátil para caixas de som com entrada P2 (Auxiliar), USB-C ou Bluetooth — 100% gratuito, sem propagandas invasivas e 100% offline.
+Precisa dar uma aula, fazer uma apresentação, liderar um evento, fazer anúncios ou cantar karaokê sem um microfone dedicado? OndaMic transforma seu telefone em um microfone versátil ao vivo para alto-falantes externos via Aux de 3,5 mm (P2), USB-C ou Bluetooth - 100% gratuito, sem anúncios e 100% offline.
 
-🌟 Por que o OndaMic é diferente de tudo na Play Store?
-• Modo Chamada Clara (Voice Focus) vs. Estúdio Baixa Latência: Escolha usar o processador de chamadas do próprio aparelho (com cancelamento de eco, supressão de ruído e Foco de Voz da fabricante) ou a via rápida de baixa latência!
-• Modo Mono ou Estéreo Dual-Mic Real (Canal L + Canal R): Transmita dois microfones físicos do celular simultaneamente em canais separados (Esquerdo e Direito) com controle de balanço estéreo!
-• Escolha qual Microfone Físico usar: Selecione entre o microfone inferior, superior/traseiro (câmera), fone com fio ou Bluetooth, além de ajustar a direção do feixe acústico (Frontal, Traseiro ou 360°).
-• Escudo Anti-Microfonia Inteligente: Filtro Auto-Notch FFT que detecta e corta apitos automaticamente, Inversão de Fase de 180°, Noise Gate, Filtro Corta-Graves (HPF) e Limitador de proteção.
-• Brilho, Reverb e Eco Ajustáveis: Controle individualmente (ON/OFF e nível de 0 a 100%) o Brilho Vocal, Reverb de Palco (Estúdio, Auditório, Arena) e Eco (Delay em ms), além de Equalizador de 5 Bandas.
-• Feito para o Palco: Modos Contínuo, Segurar para Falar (Push-to-Talk na tela ou no botão físico de volume), Ativação por Voz (VOX), botão Tosse/Mute, Gongo de anúncio ("Ding-Dong"), Auto-Ducking para falar sobre música de fundo e Kill-Switch que muta na hora se o cabo P2 desconectar!
-• 36+ Idiomas Nativos: Inclui Português, Inglês, Espanhol, Francês, Crioulo Haitiano, Suaíli, Iorubá, Hauçá, Amárico, Zulu, Lingala e dezenas de outros idiomas.
-• 100% Offline e Privado: Zero permissão de Internet. Sua voz é processada estritamente na memória do seu aparelho e jamais sai dele.
+🌟 Principais recursos:
+• Modo de chamada clara (foco de voz) e modo de baixa latência de estúdio
+• Mono e True Dual-Mic Stereo (canais separados à esquerda e à direita)
+• Selecione a cápsula física do microfone e a direção polar (frontal, traseira, 360°)
+• Escudo anti-feedback inteligente: filtro Auto-Notch e inversão de fase de 180°
+• Efeitos vocais: brilho, reverberação de palco, atraso de eco e equalizador de 5 bandas
+• Stage Ready: Push-to-Talk (tela e teclas de volume), VOX, botão Tosse/Mudo e Campainha
+• 100% offline e privado: sem permissão de Internet. Sua voz nunca sai do seu dispositivo.

@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — اپنے اینڈرائیڈ اسمارٹ فون کو پروفیشنل لائیو جیبی مائکروفون میں تبدیل کریں!
 
-(Store listing optimized for Urdu - ur)
+کلاس پڑھانے، پریزنٹیشن دینے، ایونٹ کی قیادت کرنے، اعلانات کرنے، یا وقف شدہ مائیکروفون کے بغیر کراوکی گانے کی ضرورت ہے؟ OndaMic آپ کے فون کو بیرونی اسپیکرز کے لیے 3.5mm Aux (P2)، USB-C، یا بلوٹوتھ کے ذریعے ایک ورسٹائل لائیو مائیکروفون میں تبدیل کرتا ہے — 100% مفت، صفر اشتہارات، اور 100% آف لائن۔
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 اہم خصوصیات:
+• کلیئر کال موڈ (وائس فوکس) اور اسٹوڈیو کم لیٹنسی موڈ
+• مونو اور ٹرو ڈوئل مائک سٹیریو (بائیں + دائیں علیحدہ چینلز)
+• فزیکل مائیکروفون کیپسول اور پولر ڈائریکشن کا انتخاب کریں (سامنے، پیچھے، 360°)
+• ذہین اینٹی فیڈ بیک شیلڈ: آٹو نوچ فلٹر اور 180° فیز فلپ
+• آواز کے اثرات: چمک، سٹیج ریورب، ایکو ڈیلے اور 5-بینڈ ایکویلائزر
+• اسٹیج کے لیے تیار: پش ٹو ٹاک (اسکرین اور والیوم کیز)، VOX، Cough/Mute بٹن اور Chime
+• 100% آف لائن اور پرائیویٹ: انٹرنیٹ کی اجازت نہیں۔ آپ کی آواز آپ کے آلے کو کبھی نہیں چھوڑتی ہے۔

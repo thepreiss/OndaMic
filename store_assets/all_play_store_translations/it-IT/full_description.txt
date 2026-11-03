@@ -1,12 +1,12 @@
-OndaMic — Trasforma il tuo smartphone Android in un microfono professionale tascabile!
+OndaMic — Trasforma il tuo smartphone Android in un microfono tascabile live professionale!
 
-Devi tenere una lezione, fare un discorso o cantare al karaoke senza un microfono dedicato? OndaMic trasforma il tuo telefono in un microfono versatile per altoparlanti esterni tramite cavo jack 3.5mm (P2), USB-C o Bluetooth — 100% gratuito, senza pubblicità e 100% offline.
+Hai bisogno di tenere una lezione, tenere una presentazione, condurre un evento, fare annunci o cantare al karaoke senza un microfono dedicato? OndaMic trasforma il tuo telefono in un versatile microfono live per altoparlanti esterni tramite Aux da 3,5 mm (P2), USB-C o Bluetooth: 100% gratuito, zero pubblicità e 100% offline.
 
 🌟 Caratteristiche principali:
-• Modalità Chiamata Chiara (Voice Focus) vs. Bassa Latenza Studio
-• Mono o Vero Stereo Dual-Mic (Sinistra L + Destra R)
-• Selezione del microfono fisico e direzione del fascio
-• Scudo Anti-Larsen: Filtro Notch automatico e inversione di fase 180°
-• Effetti vocali regolabili: Brillantezza, Riverbero, Eco/Delay ed EQ a 5 bande
-• Pensato per il palco: Push-to-Talk, VOX, tasto tosse/mute e kill-switch alla disconnessione
-• 100% Offline e Privato: Nessun permesso Internet.
+• Modalità Cancella chiamata (Messa a fuoco vocale) e Modalità Studio a bassa latenza
+• Stereo mono e vero doppio microfono (canali separati sinistro + destro)
+• Seleziona la capsula microfonica fisica e la direzione polare (anteriore, posteriore, 360°)
+• Schermo anti-feedback intelligente: filtro Notch automatico e inversione di fase di 180°
+• Effetti vocali: luminosità, riverbero scenico, ritardo eco ed equalizzatore a 5 bande
+• Stage Ready: Push-to-Talk (tasti schermo e volume), VOX, pulsante Tosse/Muto e Suoneria
+• 100% offline e privato: nessuna autorizzazione Internet. La tua voce non lascia mai il tuo dispositivo.

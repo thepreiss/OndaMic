@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — Umbreyttu Android snjallsímanum þínum í faglegan lifandi vasahljóðnema!
 
-(Store listing optimized for Icelandic - is-IS)
+Þarftu að kenna bekk, halda kynningu, leiða viðburð, koma með tilkynningar eða syngja karókí án sérstakra hljóðnema? OndaMic umbreytir símanum þínum í fjölhæfan lifandi hljóðnema fyrir ytri hátalara í gegnum 3,5 mm Aux (P2), USB-C eða Bluetooth - 100% ókeypis, engar auglýsingar og 100% offline.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 Helstu eiginleikar:
+• Hreinsa símtalsstillingu (raddfókus) og lágt töf í vinnustofu
+• Mono & True Dual-Mic Stereo (Vinstri + Hægri aðskildar rásir)
+• Veldu líkamlegt hljóðnemahylki og skautstefnu (framan, aftan, 360°)
+• Greindur skjöldur gegn endurgjöf: Sjálfvirk sía og 180° fasasnúning
+• Söngbrellur: Birtustig, Stage Reverb, Echo Delay og 5-band tónjafnari
+• Stage Ready: Push-to-Talk (skjár- og hljóðstyrkstakkar), VOX, Hósti/Mute hnappur og bjöllur
+• 100% Offline & Private: Engin internetheimild. Rödd þín fer aldrei úr tækinu þínu.

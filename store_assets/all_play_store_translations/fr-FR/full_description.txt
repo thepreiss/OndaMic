@@ -1,12 +1,12 @@
-OndaMic — Transformez votre Android en microphone professionnel de poche !
+OndaMic — Transformez votre smartphone Android en un microphone de poche professionnel en direct !
 
-Besoin de donner un cours, faire une conférence, animer un événement ou chanter au karaoké sans micro dédié ? OndaMic transforme votre smartphone en micro sans fil ou filaire polyvalent pour enceintes via câble Jack P2 (3,5 mm), USB-C ou Bluetooth — 100% gratuit, sans publicité et 100% hors-ligne.
+Besoin de donner un cours, de faire une présentation, de diriger un événement, de faire des annonces ou de chanter au karaoké sans microphone dédié ? OndaMic transforme votre téléphone en un microphone en direct polyvalent pour haut-parleurs externes via Aux 3,5 mm (P2), USB-C ou Bluetooth — 100 % gratuit, sans publicité et 100 % hors ligne.
 
-🌟 Pourquoi OndaMic est unique ?
-• Mode Appel Clair (Focus Vocal) vs. Studio Basse Latence : Annulation d'écho et réduction de bruit matérielle ou voie directe rapide !
-• Mode Mono ou Stéréo Dual-Mic Réel : Diffusez deux microphones physiques séparément sur les canaux Gauche (L) et Droite (R).
-• Choix de la Capsule Physique : Micro inférieur, supérieur/arrière (caméra), casque filaire ou Bluetooth.
-• Bouclier Anti-Larsen : Filtre Auto-Notch FFT coupant les sifflements, inversion de phase 180°, Noise Gate et limiteur.
-• Effets Vocaux Réglables : Clarté/Brillance, Réverbération de scène, Écho/Délai et Égaliseur 5 bandes.
-• Conçu pour la Scène : Push-to-Talk, VOX, bouton Toux/Silence, Carillon PA et coupure automatique en cas de déconnexion.
-• 100% Hors-Ligne & Privé : Zéro permission Internet. Votre voix ne quitte jamais votre appareil.
+🌟 Principales caractéristiques :
+• Mode d'appel clair (Voice Focus) et mode Studio à faible latence
+• Stéréo mono et véritable double micro (canaux séparés gauche et droite)
+• Sélectionnez la capsule du microphone physique et la direction polaire (avant, arrière, 360 °).
+• Bouclier anti-larsen intelligent : filtre Auto-Notch et inversion de phase à 180 °
+• Effets vocaux : luminosité, réverbération de scène, délai d'écho et égaliseur 5 bandes
+• Prêt pour la scène : Push-to-Talk (touches d'écran et de volume), VOX, bouton Toux/Muet et carillon
+• 100 % hors ligne et privé : aucune autorisation Internet. Votre voix ne quitte jamais votre appareil.

@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — Android смартфоныңызды кәсіби жанды қалта микрофонына айналдырыңыз!
 
-(Store listing optimized for Kazakh - kk)
+Сыныпқа сабақ беру, презентация жасау, іс-шараны жүргізу, хабарландырулар жасау немесе арнайы микрофонсыз караоке айту керек пе? OndaMic телефоныңызды 3,5 мм Aux (P2), USB-C немесе Bluetooth арқылы сыртқы динамиктерге арналған жан-жақты микрофонға айналдырады — 100% тегін, жарнамасыз және 100% офлайн.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 Негізгі мүмкіндіктер:
+• Қоңырау режимін өшіру (дауыс фокусы) және Studio төмен кідіріс режимі
+• Моно және шынайы қос микрофон стерео (сол + оң жақ бөлінген арналар)
+• Физикалық микрофон капсуласын және полярлық бағытты таңдау (алдыңғы, артқы, 360°)
+• Кері байланысқа қарсы интеллектуалды қалқан: автоматты ойық сүзгісі және 180° фазалық айналдыру
+• Вокалдық әсерлер: жарықтық, сахналық реверб, жаңғырық кешігуі және 5 жолақты эквалайзер
+• Сахна дайын: Сөйлесу үшін басу (экран және дыбыс деңгейі пернелері), VOX, жөтел/дыбысты өшіру түймесі және қоңырау
+• 100% офлайн және жеке: Интернет рұқсаты жоқ. Сіздің дауысыңыз құрылғыңыздан ешқашан кетпейді.

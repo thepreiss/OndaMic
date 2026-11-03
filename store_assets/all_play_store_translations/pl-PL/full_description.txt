@@ -1,17 +1,12 @@
-OndaMic — Turn your Android smartphone into a professional live microphone!
+OndaMic — Zmień swój smartfon z Androidem w profesjonalny kieszonkowy mikrofon do występów na żywo!
 
-(Store listing optimized for Polish - pl-PL)
+Chcesz prowadzić zajęcia, wygłaszać prezentację, poprowadzić wydarzenie, ogłaszać ogłoszenia lub śpiewać karaoke bez dedykowanego mikrofonu? OndaMic zmienia Twój telefon we wszechstronny mikrofon do transmisji na żywo dla głośników zewnętrznych poprzez złącze Aux 3,5 mm (P2), USB-C lub Bluetooth — w 100% darmowy, bez reklam i w 100% offline.
 
-OndaMic — Turn your Android into a professional pocket microphone!
-
-Need to teach a class, give a presentation, lead an event, make announcements, or sing karaoke without a dedicated microphone? OndaMic transforms your Android smartphone into a versatile live wireless or wired microphone for external speakers via 3.5mm Aux (P2), USB-C DAC, or Bluetooth — 100% free, zero ads, and 100% offline.
-
-🌟 Why OndaMic is unlike anything on the Play Store:
-• Clear Call Mode (Voice Focus) vs. Low-Latency Studio: Choose between Android's hardware telephony engine (with Acoustic Echo Cancellation, Noise Suppression, and OEM Voice Focus) or a fast-track studio DSP!
-• Mono or True Dual-Mic Stereo (Left + Right): Stream two physical device microphones simultaneously on separated Left and Right channels with stereo pan balance!
-• Physical Capsule Selection: Choose between bottom voice mic, top/rear camera mic, wired headset, or Bluetooth, with beamforming direction steering (Front, Back, or 360°).
-• Intelligent Anti-Feedback Shield: Auto-Notch FFT filter that detects howling in real time, 180° acoustic phase flip, Noise Gate, Low-Cut (HPF), and brickwall safety limiter.
-• Adjustable Vocal Effects: Individual ON/OFF switches and 0–100% level sliders for Vocal Brightness (4.8kHz presence), Stage Reverb (Studio, Auditorium, Arena), and Vocal Echo/Delay (ms), plus a 5-Band EQ.
-• Built for the Stage: Continuous, Push-to-Talk (screen button or physical volume keys), VOX Voice Activation, Cough/Mute button, Airport PA Chime ("Ding-Dong"), Auto-Ducking for background music, and Disconnect Kill-Switch.
-• 36+ Native Languages: Global accessibility including English, Spanish, French, Haitian Creole, Swahili, Yoruba, Hausa, Amharic, Zulu, Lingala, and more.
-• 100% Offline & Private: Zero Internet permission. Your voice never leaves your device.
+🌟 Kluczowe funkcje:
+• Tryb czystego połączenia (fokus głosowy) i tryb studyjny o niskim opóźnieniu
+• Mono i True Dual-Mic Stereo (oddzielone kanały lewy i prawy)
+• Wybierz fizyczną kapsułę mikrofonu i kierunek biegunowy (przód, tył, 360°)
+• Inteligentna osłona zapobiegająca sprzężeniom zwrotnym: filtr Auto-Notch i odwrócenie fazy o 180°
+• Efekty wokalne: jasność, pogłos sceniczny, opóźnienie echa i 5-pasmowy korektor
+• Gotowość do pracy na scenie: Push-to-Talk (ekran i klawisze głośności), VOX, przycisk kasłania/wyciszania i dzwonek
+• 100% offline i prywatnie: brak pozwolenia na Internet. Twój głos nigdy nie opuszcza Twojego urządzenia.

@@ -1,12 +1,12 @@
-OndaMic — ¡Convierte tu Android en un micrófono profesional de bolsillo!
+OndaMic: transforma tu teléfono inteligente Android en un micrófono de bolsillo profesional en vivo.
 
-¿Necesitas dar una clase, hacer una conferencia, anunciar en una tienda o cantar karaoke y no tienes un micrófono dedicado? OndaMic transforma tu smartphone en un micrófono versátil para altavoces con entrada auxiliar P2 (3.5mm), USB-C o Bluetooth — 100% gratis, sin anuncios invasivos y 100% offline.
+¿Necesita dar una clase, hacer una presentación, dirigir un evento, hacer anuncios o cantar karaoke sin un micrófono exclusivo? OndaMic transforma su teléfono en un micrófono en vivo versátil para parlantes externos a través de auxiliar de 3,5 mm (P2), USB-C o Bluetooth: 100% gratis, sin anuncios y 100% sin conexión.
 
-🌟 ¿Por qué OndaMic es superior?
-• Modo Llamada Clara (Voice Focus) vs. Estudio Baja Latencia: Utiliza el procesador de llamadas del dispositivo o la vía rápida de baja latencia.
-• Modo Mono o Estéreo Dual-Mic Real: Transmite dos micrófonos físicos por separado en canales Izquierdo (L) y Derecho (R).
-• Selección de Micrófono Físico: Elige entre micrófono inferior, superior/trasero (cámara), auricular con cable o Bluetooth.
-• Escudo Anti-Acople (Feedback): Filtro Auto-Notch FFT que corta pitidos agudos automáticamente, inversión de fase de 180°, Noise Gate y limitador.
-• Efectos Vocales Ajustables: Control individual (ON/OFF y 0 a 100%) para Brillo Vocal, Reverb de Escenario, Eco/Delay y Ecualizador de 5 Bandas.
-• Utilidades de Escenario: Push-to-Talk, VOX, botón Tos/Mute, Timbre PA y corte automático al desconectar el cable.
-• 100% Offline y Seguro: Cero permiso de Internet. Tu voz nunca sale de tu teléfono.
+🌟 Características clave:
+• Modo de llamada clara (enfoque de voz) y modo de baja latencia de estudio
+• Mono y verdadero estéreo con micrófono dual (canales separados izquierdo y derecho)
+• Seleccione la cápsula física del micrófono y la dirección polar (delantera, trasera, 360°)
+• Escudo antirretroalimentación inteligente: filtro de muesca automática y cambio de fase de 180°
+• Efectos vocales: brillo, reverberación de escenario, retardo de eco y ecualizador de 5 bandas
+• Etapa lista: Pulsar para hablar (pantalla y teclas de volumen), VOX, botón Toser/Silenciar y timbre
+• 100% sin conexión y privado: sin permiso de Internet. Tu voz nunca sale de tu dispositivo.
