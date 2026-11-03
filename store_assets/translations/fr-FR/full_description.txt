@@ -1,0 +1,13 @@
+OndaMic — Transformez votre Android en microphone professionnel de poche !
+
+Besoin de donner un cours, faire une conférence, animer un événement ou chanter au karaoké sans micro dédié ? OndaMic transforme votre smartphone en micro sans fil ou filaire polyvalent pour enceintes via câble Jack P2 (3,5 mm), USB-C ou Bluetooth — 100% gratuit, sans publicité et 100% hors-ligne.
+
+🌟 Pourquoi OndaMic est unique ?
+• Mode Appel Clair (Focus Vocal) vs. Studio Basse Latence : Profitez du processeur d'appel du smartphone (annulation d'écho et réduction de bruit matérielle) ou de la voie rapide directe !
+• Mode Mono ou Stéréo Dual-Mic Réel : Diffusez deux microphones physiques séparément sur les canaux Gauche (L) et Droite (R) avec balance stéréo !
+• Choix de la Capsule Physique : Sélectionnez le micro inférieur, supérieur/arrière (caméra), casque filaire ou Bluetooth, avec contrôle de directivité (Face, Arrière ou 360°).
+• Bouclier Anti-Larsen : Filtre Auto-Notch FFT coupant automatiquement les sifflements, inversion de phase 180°, Noise Gate et limiteur de protection.
+• Effets Vocaux Réglables : Clarté/Brillance, Réverbération de scène (Studio, Auditorium, Arena), Écho/Délai et Égaliseur 5 bandes avec interrupteurs ON/OFF et réglage 0–100%.
+• Conçu pour la Scène : Push-to-Talk (sur écran ou boutons de volume physiques), VOX, bouton Toux/Silence, Carillon PA ("Ding-Dong") et coupure automatique en cas de déconnexion.
+• 36+ Langues Natives : Français, Créole Haïtien, Swahili, Wolof, Lingala, etc.
+• 100% Hors-Ligne & Privé : Zéro permission Internet. Votre voix ne quitte jamais votre appareil.

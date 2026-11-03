@@ -1,0 +1,12 @@
+OndaMic — Geuza simu yako ya Android kuwa kipaza sauti (maikrofoni) cha kitaalamu mfukoni mwako!
+
+Je, unahitaji kufundisha darasa, kutoa hotuba, kuongoza ibada au mkutano, kutangaza dukani, au kuimba karaoke bila kuwa na maikrofoni ya gharama kubwa? OndaMic inabadilisha simu yako kuwa maikrofoni ya moja kwa moja ya spika kupitia kebo ya P2 (Aux 3.5mm), USB-C, au Bluetooth — 100% bure, bila matangazo yanayobughudhi, na 100% bila mtandao.
+
+🌟 Vipengele Maalum vya OndaMic:
+• Njia ya Simu Safi (Voice Focus) dhidi ya Studio ya Haraka.
+• Stereo Maikrofoni-2: Tumia maikrofoni mbili za simu kwa wakati mmoja (Kushoto L na Kulia R).
+• Ulinzi dhidi ya Mwangwi (Anti-Feedback Shield): Kichujio cha Auto-Notch FFT kinachozima miluzi mikali papo hapo.
+• Madoido ya Sauti: Reverb, Echo/Delay, Mwangaza wa sauti na Equalizer ya bendi 5 yenye udhibiti kamili wa 0-100%.
+• Rahisi Kutumia Jukwaani: Shikilia kuongea (PTT kwenye skrini au kitufe cha sauti cha simu), VOX, kengele ya tangazo ("Ding-Dong"), na kuzima kiotomatiki kebo ikichomoka.
+• Lugha 36+ zikiwemo Kiswahili, Kiingereza, Kifaransa na lugha za Kiafrika.
+• 100% Faragha: Hakuna ruhusa ya mtandao. Sauti yako haitoki nje ya simu yako.

@@ -1,0 +1,13 @@
+OndaMic — ¡Convierte tu Android en un micrófono profesional de bolsillo!
+
+¿Necesitas dar una clase, hacer una conferencia, anunciar en una tienda o cantar karaoke y no tienes un micrófono dedicado? OndaMic transforma tu smartphone en un micrófono versátil para altavoces con entrada auxiliar P2 (3.5mm), USB-C o Bluetooth — 100% gratis, sin anuncios invasivos y 100% offline.
+
+🌟 ¿Por qué OndaMic es superior?
+• Modo Llamada Clara (Voice Focus) vs. Estudio Baja Latencia: Utiliza el procesador de llamadas del dispositivo (con cancelación de eco y supresión de ruido del fabricante) o la vía rápida de baja latencia.
+• Modo Mono o Estéreo Dual-Mic Real: Transmite dos micrófonos físicos por separado en canales Izquierdo (L) y Derecho (R) con balance estéreo.
+• Selección de Micrófono Físico: Elige entre micrófono inferior, superior/trasero (cámara), auricular con cable o Bluetooth, con control de dirección acústica (Frontal, Trasero o 360°).
+• Escudo Anti-Acople (Feedback): Filtro Auto-Notch FFT que corta pitidos agudos automáticamente, inversión de fase de 180°, Noise Gate, filtro paso alto y limitador de protección.
+• Efectos Vocales Ajustables: Control individual (ON/OFF y nivel 0 a 100%) para Brillo Vocal, Reverb de Escenario (Estudio, Auditorio, Arena), Eco/Delay y Ecualizador de 5 Bandas.
+• Utilidades de Escenario: Push-to-Talk (en pantalla o botones físicos de volumen), VOX, botón Tos/Mute, Timbre PA ("Ding-Dong"), atenuación de música de fondo y corte automático al desconectar el cable.
+• 36+ Idiomas: Incluyendo Español, Criollo Haitiano, Guaraní, Quechua y lenguas africanas.
+• 100% Offline y Seguro: Cero permiso de Internet. Tu voz nunca sale de tu teléfono.
