@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Outer Acoustic Wave Arcs (Left & Right) representing Stereo / Onda -->
+    <path
+        android:pathData="M30,38 C24,45 24,59 30,66"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF00E5FF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M23,32 C15,43 15,61 23,72"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeColor="#9900E5FF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M78,38 C84,45 84,59 78,66"
+        android:strokeWidth="3.2"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF00E676"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M85,32 C93,43 93,61 85,72"
+        android:strokeWidth="2.4"
+        android:strokeLineCap="round"
+        android:strokeColor="#9900E676"
+        android:fillColor="#00000000" />
+
+    <!-- Microphone Capsule Body -->
+    <path
+        android:pathData="M54,26 C47.37,26 42,31.37 42,38 L42,53 C42,59.63 47.37,65 54,65 C60.63,65 66,59.63 66,53 L66,38 C66,31.37 60.63,26 54,26 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="42"
+                android:startY="26"
+                android:endX="66"
+                android:endY="65"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF00E5FF" />
+                <item android:offset="1.0" android:color="#FF00E676" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Microphone Grille Lines -->
+    <path
+        android:pathData="M46,37 L62,37 M45,43 L63,43 M46,49 L62,49"
+        android:strokeWidth="2.0"
+        android:strokeLineCap="round"
+        android:strokeColor="#FF090C10" />
+
+    <!-- Microphone Cradle & Stand -->
+    <path
+        android:pathData="M36,51 C36,61 44,69 54,69 C64,69 72,61 72,51"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFFFF"
+        android:fillColor="#00000000" />
+    <path
+        android:pathData="M54,69 L54,80 M44,80 L64,80"
+        android:strokeWidth="3.6"
+        android:strokeLineCap="round"
+        android:strokeColor="#FFFFFFFF"
+        android:fillColor="#00000000" />
+</vector>

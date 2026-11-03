@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="quick_voice_focus"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/preset_call_focus"
+        android:shortcutLongLabel="@string/preset_call_focus">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.ondamic.app"
+            android:targetClass="com.ondamic.app.MainActivity">
+            <extra android:name="shortcut_preset" android:value="CALL_FOCUS" />
+        </intent>
+    </shortcut>
+    <shortcut
+        android:shortcutId="quick_stage_speech"
+        android:enabled="true"
+        android:icon="@mipmap/ic_launcher"
+        android:shortcutShortLabel="@string/preset_speech"
+        android:shortcutLongLabel="@string/preset_speech">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.ondamic.app"
+            android:targetClass="com.ondamic.app.MainActivity">
+            <extra android:name="shortcut_preset" android:value="SPEECH" />
+        </intent>
+    </shortcut>
+</shortcuts>

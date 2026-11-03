@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="500" viewBox="0 0 1024 500">
+  <defs>
+    <linearGradient id="stageBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#06090F"/>
+      <stop offset="50%" stop-color="#0D192B"/>
+      <stop offset="100%" stop-color="#072736"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#00E676"/>
+    </linearGradient>
+  </defs>
+  <rect width="1024" height="500" fill="url(#stageBg)"/>
+  <!-- Sonic Wave Backdrop -->
+  <circle cx="240" cy="250" r="180" fill="none" stroke="#00E5FF" stroke-opacity="0.14" stroke-width="2"/>
+  <circle cx="240" cy="250" r="135" fill="none" stroke="#00E676" stroke-opacity="0.22" stroke-width="2.5"/>
+  <circle cx="240" cy="250" r="92" fill="#101B2B" stroke="url(#accentGrad)" stroke-width="4"/>
+  <!-- Mic Icon -->
+  <rect x="218" y="195" width="44" height="72" rx="22" fill="url(#accentGrad)"/>
+  <path d="M198,242 C198,266 216,284 240,284 C264,284 282,266 282,242 M240,284 L240,308 M216,308 L264,308" fill="none" stroke="#FFFFFF" stroke-width="7" stroke-linecap="round"/>
+  <!-- Typography -->
+  <text x="410" y="195" fill="#00E5FF" font-family="Segoe UI, Roboto, sans-serif" font-size="76" font-weight="900">OndaMic</text>
+  <text x="410" y="255" fill="#F3F6FA" font-family="Segoe UI, Roboto, sans-serif" font-size="34" font-weight="700">Seu Android vira um microfone</text>
+  <text x="410" y="310" fill="#9BA9BC" font-family="Segoe UI, Roboto, sans-serif" font-size="22">• Estéreo Dual-Mic (L+R) &amp; Foco de Voz de Chamada</text>
+  <text x="410" y="346" fill="#9BA9BC" font-family="Segoe UI, Roboto, sans-serif" font-size="22">• Escudo Anti-Microfonia FFT • Brilho, Reverb &amp; Eco</text>
+  <text x="410" y="382" fill="#00E676" font-family="Segoe UI, Roboto, sans-serif" font-size="22" font-weight="700">• 100% Offline • Zero Anúncios • 36+ Idiomas</text>
+</svg>

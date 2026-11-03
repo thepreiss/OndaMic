@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OndaMic</string>
+    <string name="app_tagline">Andwoyid ou tounen yon mikwofòn</string>
+    <string name="app_tagline_short">Mikwofòn Andwoyid</string>
+
+    <!-- Status & Header -->
+    <string name="status_on_air">AN DIRÈK • AKTIF</string>
+    <string name="status_standby">PARE • AN ATANT</string>
+    <string name="status_muted_cough">SILANS (TOUSE / MUTE)</string>
+    <string name="status_vox_waiting">VOX • AP TANN VWA OU</string>
+    <string name="status_countdown">AP KÒMANSE NAN %1$d s…</string>
+    <string name="status_offline_badge">100% SAN ENTÈNÈT • ZERO PIBLISITE</string>
+    <string name="latency_badge">~%1$d ms</string>
+
+    <!-- Main Controls -->
+    <string name="btn_tap_to_start">PEZE POU ANPLIFYE</string>
+    <string name="btn_tap_to_stop">PEZE POU KANPE</string>
+    <string name="btn_hold_ptt">KENBE POU PALE (PTT)</string>
+    <string name="btn_cough_mute">Touse / Silans</string>
+    <string name="btn_unmute">Retounen Vwa</string>
+    <string name="btn_chime">Klòch Anons</string>
+    <string name="btn_recordings">Anrejistreman</string>
+    <string name="btn_save_preset">Sove Pwofil</string>
+    <string name="btn_language">Lang</string>
+    <string name="btn_stage_dimmer">Mòd Sèn OLED</string>
+
+    <!-- Trigger Modes -->
+    <string name="trigger_mode_title">Mòd Deklanchman</string>
+    <string name="trigger_continuous">Kontinyèl (Men Lib)</string>
+    <string name="trigger_ptt">Kenbe pou Pale (PTT)</string>
+    <string name="trigger_vox">VOX (Otomatik ak Vwa)</string>
+
+    <!-- Presets -->
+    <string name="presets_title">Pwofil Vwa Entèlijan</string>
+    <string name="preset_call_focus">Apèl Klè (Konsantrasyon Vwa)</string>
+    <string name="preset_speech">Diskou &amp; Konferans</string>
+    <string name="preset_anti_feedback">Pwoteksyon Anti-Siflèt (Feedback)</string>
+    <string name="preset_karaoke">Karaoke &amp; Sèn</string>
+    <string name="preset_megaphone">Megafòn / Ijans</string>
+    <string name="preset_custom">Pèsonalize</string>
+
+    <!-- Tabs -->
+    <string name="tab_routing">1. Kanal &amp; Mikwofòn</string>
+    <string name="tab_effects">2. Volim, EQ &amp; Efè</string>
+    <string name="tab_antifeedback">3. Anti-Feedback &amp; Sèn</string>
+
+    <!-- Channel & Routing Tab -->
+    <string name="channel_mode_title">Mòd Transmisyon Kanal</string>
+    <string name="channel_mono">Mono (1 Mikwofòn → L+R)</string>
+    <string name="channel_stereo_dual">Estereyo 2-Mikwo (Mik 1 → Gòch L | Mik 2 → Dwat R)</string>
+    <string name="stereo_restriction_banner">ℹ️ Mòd Estereyo 2-Mikwo Aktif: De mikwofòn fizik ap transmèt separeman nan kanal Gòch (L) ak Dwat (R). Mòd Apèl Telefòn (Mono sèlman) ak chwa yon sèl mikwofòn dezaktive otomatikman.</string>
+    <string name="stereo_balance_label">Balans Estereyo (L ↔ R): %1$s</string>
+    <string name="stereo_swap_channels">Chanje Kanal Gòch / Dwat (L ↔ R)</string>
+    <string name="processing_engine_title"> Sistèm Tretman Odyo</string>
+    <string name="processing_call_focus">Pwosesè Apèl (AEC + Anti-Bri + Konsantrasyon Vwa)</string>
+    <string name="processing_low_latency">Estidyo Ba Latans (Dirèk + DSP OndaMic)</string>
+    <string name="processing_disabled_by_stereo">Dezaktive nan mòd Estereyo 2-Mikwo (DSP Apèl travay an Mono sèlman)</string>
+
+    <string name="mic_source_title">Kapsil Mikwofòn Fizik</string>
+    <string name="mic_auto_default">Otomatik Sistèm nan</string>
+    <string name="mic_bottom_main">Mikwofòn Anba (Prensipal pou Apèl)</string>
+    <string name="mic_top_camcorder">Mikwofòn Anwo / Dèyè (Kamera)</string>
+    <string name="mic_wired_headset">Mikwofòn Ekoutè ak Fil (P2)</string>
+    <string name="mic_usb_external">Mikwofòn USB-C Ekstèn</string>
+    <string name="mic_bt_wireless">Mikwofòn Bluetooth</string>
+    <string name="mic_disabled_by_stereo">Ap itilize 2 Mikwofòn Fizik (L + R) ansanm</string>
+
+    <string name="mic_direction_title">Direksyon Kaptasyon Vwa</string>
+    <string name="dir_front">Devan (Bò Ekran an)</string>
+    <string name="dir_back">Dèyè (Bò Kamera a)</string>
+    <string name="dir_omni">Tout Direksyon (360°)</string>
+
+    <string name="output_device_title">Bwat Son / Sòti Odyo</string>
+    <string name="out_wired_p2">Fil P2 Aux / Liy</string>
+    <string name="out_bluetooth_a2dp">Bwat Son Bluetooth (A2DP)</string>
+    <string name="out_usb_dac">Odyo USB-C / DAC</string>
+    <string name="out_internal_speaker">Opalè Entèn Telefòn nan (Danje Siflèt!)</string>
+
+    <!-- Gain, EQ & Adjustable Effects Tab -->
+    <string name="gain_preamp_label">Fòs Vwa (Pre-Amp Gain): %1$s dB</string>
+    <string name="fx_section_title">Efè Vwa Reglabl (ON/OFF ak Nivo)</string>
+    <string name="fx_bright_title">Klate Vwa &amp; Prezans (4.8kHz)</string>
+    <string name="fx_bright_level">Nivo Klate: %1$d%%</string>
+    <string name="fx_reverb_title">Reverb Sèn Akoustik (Estereyo)</string>
+    <string name="fx_reverb_level">Nivo Reverb: %1$d%%</string>
+    <string name="fx_reverb_room_studio">Estidyo</string>
+    <string name="fx_reverb_room_auditorium">Oditoryòm</string>
+    <string name="fx_reverb_room_arena">Gwo Sal</string>
+    <string name="fx_echo_title">Eko Vwa / Repetisyon (Delay)</string>
+    <string name="fx_echo_level">Nivo Eko: %1$d%%</string>
+    <string name="fx_echo_delay_ms">Tan Eko (Delay): %1$d ms</string>
+    <string name="eq_section_title">Egalizatè Vwa 5 Bann</string>
+    <string name="eq_reset_flat">Remete a Zewo (0 dB)</string>
+
+    <!-- Anti-Feedback & Stage Utilities Tab -->
+    <string name="af_section_title">Pwoteksyon Kont Siflèt Mikwo (Anti-Feedback)</string>
+    <string name="af_auto_notch_title">Detektè Otomatik Siflèt (Auto-Notch FFT)</string>
+    <string name="af_auto_notch_desc">Detekte epi koupe son siflèt mikwofòn otomatikman</string>
+    <string name="af_phase_invert_title">Envèsyon Faz 180°</string>
+    <string name="af_phase_invert_desc">Chanje faz onn son an pou evite rezonans nan sal la</string>
+    <string name="af_highpass_title">Filtè Koupe Grav / Van (HPF): %1$d Hz</string>
+    <string name="af_noisegate_title">Noise Gate (Koupe Bri dèyè): %1$d dB</string>
+    <string name="af_vox_threshold_title">Sansibilite VOX: %1$d dB</string>
+    <string name="af_limiter_title">Limitè Pwoteksyon Opalè</string>
+    <string name="af_reset_notches">Efase Filtè Notch yo (%1$d aktif)</string>
+
+    <string name="stage_tools_title">Zouti Sèn ak Sekirite</string>
+    <string name="stage_volume_ptt_title">Bouton Volim Fizik kòm Push-to-Talk</string>
+    <string name="stage_volume_ptt_desc">Kenbe bouton Volim + oswa - pou pale san gade ekran an</string>
+    <string name="stage_delay_3s_title">Delè Sekirite 3 Segonn anvan Kòmanse</string>
+    <string name="stage_delay_3s_desc">Ba ou 3 segonn pou mache lwen bwat son an</string>
+    <string name="stage_autoduck_title">Bese Mizik Otomatikman lè w ap Pale (Auto-Duck)</string>
+    <string name="stage_autoduck_desc">Bese volim mizik nan lòt aplikasyon pandan mikwo a louvri</string>
+    <string name="stage_killswitch_title">Koupe Otomatik si Fil P2 oswa Bluetooth Dekonekte</string>
+    <string name="stage_killswitch_desc">Fèmen mikwo a touswit si fil la rache pou evite siflèt</string>
+    <string name="stage_wav_record_title">Anrejistreman WAV Lokal an menm tan</string>
+    <string name="stage_wav_record_desc">Sove diskou ou sou telefòn nan pandan w ap pale</string>
+
+    <!-- Dialogs & Warnings -->
+    <string name="speaker_warning_title">⚠️ Avètisman Siflèt sou Opalè Entèn</string>
+    <string name="speaker_warning_body">Pa gen fil P2 oswa bwat Bluetooth ki konekte. Anplifye vwa sou opalè telefòn nan menm ka bay gwo siflèt (feedback) paske mikwofòn nan twò pre opalè a.\n\nOndaMic ap aktive Limitè Sekirite (-6 dBFS) ak Anti-Feedback otomatikman pou tès sa a.</string>
+    <string name="speaker_warning_confirm">Teste ak Pridans</string>
+    <string name="speaker_warning_cancel">Anile</string>
+    <string name="disconnect_alert_banner">🛡️ Silans Sekirite: Fil P2 oswa bwat Bluetooth dekonekte. Mikwo a kanpe pou pwoteje zòrèy ou!</string>
+    <string name="permission_mic_rationale">OndaMic bezwen pèmisyon Mikwofòn pou anplifye vwa ou an dirèk. Tout odyo rete 100% sou telefòn ou san entènèt.</string>
+    <string name="permission_grant_btn">Otorize Mikwofòn</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Anplifikasyon OndaMic An Dirèk</string>
+    <string name="notif_channel_desc">Kenbe mikwofòn nan aktif lè ekran an etenn</string>
+    <string name="notif_live_title">OndaMic AN DIRÈK</string>
+    <string name="notif_live_body">Andwoyid ou ap anplifye vwa ou. Peze Kanpe pou fèmen l touswit.</string>
+    <string name="notif_action_stop">KANPE MIKWOFÒN NAN</string>
+</resources>

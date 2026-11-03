@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">OndaMic</string>
+    <string name="app_tagline">Seu Android vira um microfone</string>
+    <string name="app_tagline_short">Android vira Microfone</string>
+
+    <!-- Status & Header -->
+    <string name="status_on_air">NO AR • AO VIVO</string>
+    <string name="status_standby">PRONTO • EM ESPERA</string>
+    <string name="status_muted_cough">SILENCIADO (TOSSE / MUTE)</string>
+    <string name="status_vox_waiting">VOX • AGUARDANDO VOZ</string>
+    <string name="status_countdown">ENTRANDO NO AR EM %1$d s…</string>
+    <string name="status_offline_badge">100% OFFLINE • ZERO ANÚNCIOS</string>
+    <string name="latency_badge">~%1$d ms</string>
+
+    <!-- Main Controls -->
+    <string name="btn_tap_to_start">TOQUE PARA AMPLIFICAR</string>
+    <string name="btn_tap_to_stop">TOQUE PARA DESLIGAR</string>
+    <string name="btn_hold_ptt">SEGURE PARA FALAR (PTT)</string>
+    <string name="btn_cough_mute">Tosse / Mute</string>
+    <string name="btn_unmute">Voltar Voz</string>
+    <string name="btn_chime">Gongo (Ding-Dong)</string>
+    <string name="btn_recordings">Gravações</string>
+    <string name="btn_save_preset">Salvar Perfil</string>
+    <string name="btn_language">Idioma</string>
+    <string name="btn_stage_dimmer">Palco OLED</string>
+
+    <!-- Trigger Modes -->
+    <string name="trigger_mode_title">Modo de Acionamento</string>
+    <string name="trigger_continuous">Contínuo (Mãos-Livres)</string>
+    <string name="trigger_ptt">Segurar para Falar (PTT)</string>
+    <string name="trigger_vox">VOX (Ativação por Voz)</string>
+
+    <!-- Presets -->
+    <string name="presets_title">Perfis Inteligentes de Voz</string>
+    <string name="preset_call_focus">Chamada Clara (Foco de Voz)</string>
+    <string name="preset_speech">Locução &amp; Palestra</string>
+    <string name="preset_anti_feedback">Escudo Anti-Microfonia</string>
+    <string name="preset_karaoke">Karaokê &amp; Palco</string>
+    <string name="preset_megaphone">Megafone / Emergência</string>
+    <string name="preset_custom">Personalizado</string>
+
+    <!-- Tabs -->
+    <string name="tab_routing">1. Canais &amp; Microfones</string>
+    <string name="tab_effects">2. Ganho, EQ &amp; Efeitos</string>
+    <string name="tab_antifeedback">3. Anti-Microfonia &amp; Palco</string>
+
+    <!-- Channel & Routing Tab -->
+    <string name="channel_mode_title">Modo de Transmissão de Canais</string>
+    <string name="channel_mono">Mono (1 Microfone → L+R)</string>
+    <string name="channel_stereo_dual">Estéreo Dual-Mic (Mic 1 → Canal L | Mic 2 → Canal R)</string>
+    <string name="stereo_restriction_banner">ℹ️ Modo Estéreo Dual-Mic Ativo: Dois microfones físicos do aparelho estão sendo transmitidos separadamente nos canais Esquerdo (L) e Direito (R). O Processamento de Chamada (exclusivamente Mono no Android) e a seleção de cápsula única foram desabilitados automaticamente.</string>
+    <string name="stereo_balance_label">Balanço Estéreo (L ↔ R): %1$s</string>
+    <string name="stereo_swap_channels">Inverter Canais Esquerdo / Direito (L ↔ R)</string>
+    <string name="processing_engine_title">Pipeline de Processamento de Áudio</string>
+    <string name="processing_call_focus">Processador de Chamada (AEC + Anti-Ruído + Foco de Voz do Aparelho)</string>
+    <string name="processing_low_latency">Estúdio Baixa Latência (Via Rápida + DSP OndaMic)</string>
+    <string name="processing_disabled_by_stereo">Indisponível no modo Estéreo Dual-Mic (O DSP de chamada do Android opera apenas em Mono)</string>
+
+    <string name="mic_source_title">Cápsula Física do Microfone</string>
+    <string name="mic_auto_default">Padrão Automático do Sistema</string>
+    <string name="mic_bottom_main">Microfone Inferior (Principal de Chamada / Voz)</string>
+    <string name="mic_top_camcorder">Microfone Superior / Traseiro (Secundário / Câmera)</string>
+    <string name="mic_wired_headset">Microfone do Fone/Headset com Fio (P2)</string>
+    <string name="mic_usb_external">Microfone Externo USB-C</string>
+    <string name="mic_bt_wireless">Microfone Bluetooth</string>
+    <string name="mic_disabled_by_stereo">Usando Par de Cápsulas Físicas (Canal L + Canal R) simultaneamente</string>
+
+    <string name="mic_direction_title">Direção do Feixe Acústico (Beamforming)</string>
+    <string name="dir_front">Frontal (Lado da Tela)</string>
+    <string name="dir_back">Traseiro (Lado das Câmeras)</string>
+    <string name="dir_omni">Omnidirecional (360°)</string>
+
+    <string name="output_device_title">Destino de Saída de Áudio (Caixa de Som)</string>
+    <string name="out_wired_p2">Cabo P2 Auxiliar / Linha</string>
+    <string name="out_bluetooth_a2dp">Caixa Bluetooth (A2DP Estéreo)</string>
+    <string name="out_usb_dac">Interface / Placa de Som USB-C</string>
+    <string name="out_internal_speaker">Alto-Falante Integrado do Celular (Risco de Microfonia!)</string>
+
+    <!-- Gain, EQ & Adjustable Effects Tab -->
+    <string name="gain_preamp_label">Ganho Pré-Amplificador de Voz: %1$s dB</string>
+    <string name="fx_section_title">Efeitos Vocais Ajustáveis (ON/OFF e Nível)</string>
+    <string name="fx_bright_title">Brilho Vocal &amp; Presença (High-Shelf 4.8kHz)</string>
+    <string name="fx_bright_level">Intensidade do Brilho: %1$d%%</string>
+    <string name="fx_reverb_title">Reverb Acústico de Palco (Ambiência Estéreo)</string>
+    <string name="fx_reverb_level">Nível do Reverb: %1$d%%</string>
+    <string name="fx_reverb_room_studio">Estúdio</string>
+    <string name="fx_reverb_room_auditorium">Auditório</string>
+    <string name="fx_reverb_room_arena">Arena / Salão</string>
+    <string name="fx_echo_title">Eco Vocal / Delay de Repetição</string>
+    <string name="fx_echo_level">Nível do Eco: %1$d%%</string>
+    <string name="fx_echo_delay_ms">Tempo de Atraso do Eco (Delay): %1$d ms</string>
+    <string name="eq_section_title">Equalizador Vocal de 5 Bandas</string>
+    <string name="eq_reset_flat">Zerar Equalizador (0 dB)</string>
+
+    <!-- Anti-Feedback & Stage Utilities Tab -->
+    <string name="af_section_title">Escudo Anti-Microfonia e Dinâmica</string>
+    <string name="af_auto_notch_title">Destruidor Automático de Microfonia (Filtro Auto-Notch FFT)</string>
+    <string name="af_auto_notch_desc">Detecta apitos agudos de microfonia em tempo real e aplica cortes cirúrgicos</string>
+    <string name="af_phase_invert_title">Inversão de Fase Acústica (180°)</string>
+    <string name="af_phase_invert_desc">Inverte a polaridade da onda para anular ondas estacionárias na sala</string>
+    <string name="af_highpass_title">Filtro Corta-Graves / Puf de Respiração (HPF): %1$d Hz</string>
+    <string name="af_noisegate_title">Noise Gate Inteligente (Silencia Ruído de Fundo): %1$d dB</string>
+    <string name="af_vox_threshold_title">Sensibilidade de Ativação por Voz (VOX): %1$d dB</string>
+    <string name="af_limiter_title">Limitador Brickwall de Saída (Protege Caixas e Ouvidos)</string>
+    <string name="af_reset_notches">Limpar Filtros Notch Ativos (%1$d ativos)</string>
+
+    <string name="stage_tools_title">Recursos de Palco e Segurança</string>
+    <string name="stage_volume_ptt_title">Botão Físico de Volume como Push-to-Talk</string>
+    <string name="stage_volume_ptt_desc">Segure Volume + ou Volume - para falar sem precisar olhar para a tela</string>
+    <string name="stage_delay_3s_title">Atraso de Segurança de 3 Segundos ao Ligar</string>
+    <string name="stage_delay_3s_desc">Dá 3 segundos para você se afastar da caixa de som antes de abrir o microfone</string>
+    <string name="stage_autoduck_title">Auto-Ducking de Música de Fundo (Modo Rádio/DJ)</string>
+    <string name="stage_autoduck_desc">Reduz automaticamente o volume de músicas em outros apps quando o microfone está ativo</string>
+    <string name="stage_killswitch_title">Kill-Switch ao Desconectar Cabo P2 ou Bluetooth</string>
+    <string name="stage_killswitch_desc">Desliga o microfone na hora se o cabo P2 soltar ou a caixa Bluetooth cair</string>
+    <string name="stage_wav_record_title">Gravação Local Simultânea em WAV</string>
+    <string name="stage_wav_record_desc">Salva sua palestra ou locução no celular em alta qualidade enquanto amplifica</string>
+
+    <!-- Dialogs & Warnings -->
+    <string name="speaker_warning_title">⚠️ Aviso de Microfonia no Alto-Falante Interno</string>
+    <string name="speaker_warning_body">Nenhum cabo P2, placa USB ou caixa Bluetooth foi detectado. Amplificar usando o próprio alto-falante integrado do celular pode gerar microfonia (apito agudo), pois o microfone e o alto-falante estão muito próximos.\n\nPara este teste, o OndaMic ativará automaticamente o Limitador de Segurança (-6 dBFS) e o Escudo Anti-Microfonia.</string>
+    <string name="speaker_warning_confirm">Testar com Cuidado</string>
+    <string name="speaker_warning_cancel">Cancelar</string>
+    <string name="disconnect_alert_banner">🛡️ Auto-Mute de Segurança: O cabo P2 ou caixa Bluetooth foi desconectado. A transmissão foi pausada para evitar microfonia no alto-falante interno!</string>
+    <string name="permission_mic_rationale">O OndaMic precisa da permissão de Microfone para capturar e amplificar sua voz em tempo real. Todo o áudio é processado 100% offline no seu aparelho.</string>
+    <string name="permission_grant_btn">Permitir Acesso ao Microfone</string>
+
+    <!-- Notifications -->
+    <string name="notif_channel_name">Amplificação Ao Vivo OndaMic</string>
+    <string name="notif_channel_desc">Mantém o microfone ativo quando a tela apaga durante palestras</string>
+    <string name="notif_live_title">OndaMic está NO AR</string>
+    <string name="notif_live_body">Seu Android está amplificando sua voz. Toque abaixo para desligar imediatamente.</string>
+    <string name="notif_action_stop">DESLIGAR MICROFONE</string>
+</resources>

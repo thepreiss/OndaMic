@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 108 108">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070B12"/>
+      <stop offset="55%" stop-color="#0D1829"/>
+      <stop offset="100%" stop-color="#082836"/>
+    </linearGradient>
+    <linearGradient id="micGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00E5FF"/>
+      <stop offset="100%" stop-color="#00E676"/>
+    </linearGradient>
+  </defs>
+  <rect width="108" height="108" rx="24" fill="url(#bgGrad)"/>
+  <circle cx="54" cy="54" r="42" fill="none" stroke="#00E5FF" stroke-opacity="0.18" stroke-width="0.9"/>
+  <circle cx="54" cy="54" r="33" fill="none" stroke="#00E676" stroke-opacity="0.25" stroke-width="1.1"/>
+  <path d="M30,38 C24,45 24,59 30,66" fill="none" stroke="#00E5FF" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M23,32 C15,43 15,61 23,72" fill="none" stroke="#00E5FF" stroke-opacity="0.6" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M78,38 C84,45 84,59 78,66" fill="none" stroke="#00E676" stroke-width="3.2" stroke-linecap="round"/>
+  <path d="M85,32 C93,43 93,61 85,72" fill="none" stroke="#00E676" stroke-opacity="0.6" stroke-width="2.4" stroke-linecap="round"/>
+  <path d="M54,26 C47.37,26 42,31.37 42,38 L42,53 C42,59.63 47.37,65 54,65 C60.63,65 66,59.63 66,53 L66,38 C66,31.37 60.63,26 54,26 Z" fill="url(#micGrad)"/>
+  <path d="M46,37 L62,37 M45,43 L63,43 M46,49 L62,49" stroke="#090C10" stroke-width="2.0" stroke-linecap="round"/>
+  <path d="M36,51 C36,61 44,69 54,69 C64,69 72,61 72,51 M54,69 L54,80 M44,80 L64,80" fill="none" stroke="#FFFFFF" stroke-width="3.6" stroke-linecap="round"/>
+</svg>
