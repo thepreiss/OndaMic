@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Política de Privacidade — OndaMic</title>
+  <title id="page-title">Política de Privacidade — OndaMic</title>
   <style>
     :root {
       --bg: #090C10;
@@ -23,33 +23,61 @@
       padding: 0;
     }
     .container {
-      max-width: 840px;
+      max-width: 860px;
       margin: 0 auto;
-      padding: 40px 24px 80px;
+      padding: 30px 20px 80px;
     }
-    header {
+    .nav-bar {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 24px;
+      padding-bottom: 16px;
       border-bottom: 1px solid var(--border);
-      padding-bottom: 24px;
-      margin-bottom: 32px;
     }
     .badge {
       display: inline-block;
-      padding: 4px 12px;
+      padding: 5px 14px;
       border-radius: 999px;
       font-size: 0.85rem;
-      font-weight: 600;
+      font-weight: 700;
       background: rgba(0, 229, 255, 0.12);
       color: var(--cyan);
-      border: 1px solid rgba(0, 229, 255, 0.3);
-      margin-bottom: 12px;
+      border: 1px solid rgba(0, 229, 255, 0.35);
+    }
+    .selector-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    select {
+      background: var(--card);
+      color: var(--cyan);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 8px 12px;
+      font-size: 0.95rem;
+      font-weight: 600;
+      cursor: pointer;
+      outline: none;
+    }
+    select:focus {
+      border-color: var(--cyan);
     }
     h1 {
-      font-size: 2.2rem;
+      font-size: 2.1rem;
       color: var(--cyan);
       margin: 0 0 8px;
     }
+    .app-meta {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 24px;
+    }
     h2 {
-      font-size: 1.4rem;
+      font-size: 1.35rem;
       color: var(--emerald);
       margin-top: 32px;
       border-left: 3px solid var(--emerald);
@@ -60,14 +88,14 @@
       font-size: 1.05rem;
     }
     ul {
-      padding-left: 20px;
+      padding-left: 22px;
     }
     .card {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 12px;
       padding: 20px;
-      margin: 20px 0;
+      margin: 24px 0;
     }
     footer {
       margin-top: 48px;
@@ -77,65 +105,247 @@
       font-size: 0.9rem;
       text-align: center;
     }
-    .lang-switch {
-      float: right;
-      font-size: 0.9rem;
+    [dir="rtl"] {
+      text-align: right;
     }
-    .lang-switch a {
-      color: var(--cyan);
-      text-decoration: none;
-      margin-left: 12px;
+    [dir="rtl"] h2 {
+      border-left: none;
+      border-right: 3px solid var(--emerald);
+      padding-left: 0;
+      padding-right: 12px;
+    }
+    [dir="rtl"] ul {
+      padding-left: 0;
+      padding-right: 22px;
     }
   </style>
 </head>
 <body>
-  <div class="container">
+  <div class="container" id="main-content">
+    <div class="nav-bar">
+      <div class="badge" id="badge-text">100% OFFLINE • PRIVACIDADE POR DESIGN</div>
+      <div class="selector-box">
+        <label for="lang-select" style="font-size: 0.9rem; color: var(--muted);">🌍 Idioma / Language:</label>
+        <select id="lang-select" onchange="changeLanguage(this.value)">
+          <option value="pt">Português (Brasil & Portugal)</option>
+          <option value="en">English (Global)</option>
+          <option value="es">Español (Latinoamérica & España)</option>
+          <option value="fr">Français (Monde)</option>
+          <option value="ht">Kreyòl Ayisyen (Haitian Creole)</option>
+          <option value="sw">Kiswahili (Swahili)</option>
+          <option value="de">Deutsch</option>
+          <option value="it">Italiano</option>
+          <option value="zh">简体中文 (Chinese)</option>
+          <option value="ja">日本語 (Japanese)</option>
+          <option value="ko">한국어 (Korean)</option>
+          <option value="ru">Русский (Russian)</option>
+          <option value="ar">العربية (Arabic)</option>
+          <option value="hi">हिन्दी (Hindi)</option>
+          <option value="af">Afrikaans</option>
+          <option value="am">አማርኛ (Amharic)</option>
+          <option value="az">Azərbaycan</option>
+          <option value="be">Беларуская</option>
+          <option value="bg">Български</option>
+          <option value="bn">বাংলা (Bengali)</option>
+          <option value="ca">Català</option>
+          <option value="cs">Čeština</option>
+          <option value="da">Dansk</option>
+          <option value="el">Ελληνικά (Greek)</option>
+          <option value="et">Eesti</option>
+          <option value="eu">Euskara</option>
+          <option value="fa">فارسی (Persian)</option>
+          <option value="fi">Suomi</option>
+          <option value="fil">Filipino / Tagalog</option>
+          <option value="gl">Galego</option>
+          <option value="gu">ગુજરાતી</option>
+          <option value="ha">Hausa</option>
+          <option value="he">עברית (Hebrew)</option>
+          <option value="hr">Hrvatski</option>
+          <option value="hu">Magyar</option>
+          <option value="hy">Հայերեն</option>
+          <option value="id">Bahasa Indonesia</option>
+          <option value="ig">Ásụ̀sụ́ Ìgbò</option>
+          <option value="is">Íslenska</option>
+          <option value="ka">ქართული</option>
+          <option value="kk">Қазақ</option>
+          <option value="km">ខ្មែរ</option>
+          <option value="kn">ಕನ್ನಡ</option>
+          <option value="ky">Кыргызча</option>
+          <option value="ln">Lingála</option>
+          <option value="lo">ລາວ</option>
+          <option value="lt">Lietuvių</option>
+          <option value="lv">Latviešu</option>
+          <option value="mg">Malagasy</option>
+          <option value="mk">Македонски</option>
+          <option value="ml">മലയാളം</option>
+          <option value="mn">Монгол</option>
+          <option value="mr">मराठी</option>
+          <option value="ms">Bahasa Melayu</option>
+          <option value="my">ဗမာစာ</option>
+          <option value="ne">नेपाली</option>
+          <option value="nl">Nederlands</option>
+          <option value="no">Norsk</option>
+          <option value="ny">Chichewa</option>
+          <option value="om">Afaan Oromoo</option>
+          <option value="pa">ਪੰਜਾਬੀ</option>
+          <option value="pl">Polski</option>
+          <option value="qu">Runasimi (Quechua)</option>
+          <option value="ro">Română</option>
+          <option value="rw">Ikinyarwanda</option>
+          <option value="si">සිංහල</option>
+          <option value="sk">Slovenčina</option>
+          <option value="sl">Slovenščina</option>
+          <option value="sn">chiShona</option>
+          <option value="so">Soomaali</option>
+          <option value="sq">Shqip</option>
+          <option value="sr">Српски</option>
+          <option value="sv">Svenska</option>
+          <option value="ta">தமிழ்</option>
+          <option value="te">తెలుగు</option>
+          <option value="th">ไทย</option>
+          <option value="tr">Türkçe</option>
+          <option value="uk">Українська</option>
+          <option value="ur">اردو (Urdu)</option>
+          <option value="uz">Oʻzbek</option>
+          <option value="vi">Tiếng Việt</option>
+          <option value="wo">Wolof</option>
+          <option value="xh">isiXhosa</option>
+          <option value="yo">Èdè Yorùbá</option>
+          <option value="zu">isiZulu</option>
+        </select>
+      </div>
+    </div>
+
     <header>
-      <div class="badge">100% OFFLINE • PRIVACIDADE POR DESIGN</div>
-      <h1>Política de Privacidade — OndaMic</h1>
-      <p style="color: var(--muted); margin: 0;">Aplicativo: <strong>OndaMic — Seu Android vira um microfone</strong> (<code>com.ondamic.app</code>)<br>Última atualização: Novembro de 2026</p>
+      <h1 id="doc-title">Política de Privacidade — OndaMic</h1>
+      <div class="app-meta">
+        <span id="app-info">Aplicativo: OndaMic — Seu Android vira um microfone (com.ondamic.app)</span><br>
+        <span id="last-updated">Última atualização: Novembro de 2026</span>
+      </div>
     </header>
 
     <div class="card">
-      <strong style="color: var(--emerald);">Compromisso Fundamental:</strong> O <strong>OndaMic</strong> foi desenvolvido com base no princípio de <strong>Privacidade Absoluta</strong>. O aplicativo é <strong>100% offline</strong> e <strong>não possui a permissão de acesso à Internet</strong> (<code>android.permission.INTERNET</code>). É tecnicamente impossível que sua voz, dados ou telemetria sejam enviados para fora do seu aparelho.
+      <strong style="color: var(--emerald);" id="commitment-title">Compromisso Fundamental:</strong>
+      <span id="commitment-text">O OndaMic foi desenvolvido com base no princípio de Privacidade Absoluta. O aplicativo é 100% offline e não possui a permissão de acesso à Internet (android.permission.INTERNET). É tecnicamente impossível que sua voz, dados ou telemetria sejam transmitidos para fora do seu aparelho.</span>
     </div>
 
-    <h2>1. Coleta e Transmissão de Dados</h2>
-    <p>O OndaMic <strong>não coleta, não armazena em servidores remotos, não compartilha e não vende</strong> nenhum tipo de dado pessoal, identificador de dispositivo ou conteúdo de voz.</p>
+    <h2 id="s1-title">1. Coleta e Transmissão de Dados</h2>
+    <p id="s1-p1">O OndaMic não coleta, não armazena em servidores remotos, não compartilha e não vende nenhum tipo de dado pessoal, identificador de dispositivo ou conteúdo de voz.</p>
     <ul>
-      <li><strong>Sem Permissão de Internet:</strong> O aplicativo não conecta a nenhum servidor, API ou serviço externo na nuvem.</li>
-      <li><strong>Zero Rastreadores:</strong> Não utilizamos nenhum SDK de analytics, anúncios, rastreamento comportamental ou telemetria invasiva de terceiros.</li>
+      <li id="s1-li1">Sem Permissão de Internet: O aplicativo não se conecta a nenhum servidor, API ou serviço externo na nuvem.</li>
+      <li id="s1-li2">Zero Rastreadores: Não utilizamos nenhum SDK de publicidade, analytics ou telemetria de terceiros.</li>
     </ul>
 
-    <h2>2. Uso do Microfone (Permissão <code>RECORD_AUDIO</code>)</h2>
-    <p>A permissão de microfone é estritamente utilizada em tempo real para as funções essenciais solicitadas pelo usuário:</p>
+    <h2 id="s2-title">2. Uso do Microfone (Permissão RECORD_AUDIO)</h2>
+    <p id="s2-p1">A permissão de microfone é utilizada exclusivamente em tempo real para as funções solicitadas pelo usuário:</p>
     <ul>
-      <li>Capturar sua fala em tempo real para amplificá-la imediatamente em caixas de som (conectadas via cabo P2, USB-C ou Bluetooth) ou no alto-falante integrado.</li>
-      <li>Aplicar processamento de sinal digital local (DSP): controle de ganho, supressão de microfonia (filtros notch), equalização, redução de ruído e efeitos de palco (brilho, reverb e eco).</li>
-      <li>Todo o fluxo de áudio é processado na memória RAM volátil do seu telefone e descartado após a reprodução.</li>
+      <li id="s2-li1">Capturar sua voz para amplificá-la imediatamente em caixas de som externas (cabo P2, USB-C ou Bluetooth) ou no alto-falante integrado.</li>
+      <li id="s2-li2">Processar sinal digital (DSP local): ganho, filtro anti-microfonia (notch), equalizador de 5 bandas, noise gate e efeitos de palco.</li>
+      <li id="s2-li3">Todo áudio é processado na memória RAM volátil do seu telefone e descartado instantaneamente após a reprodução.</li>
     </ul>
 
-    <h2>3. Gravação Local Simultânea (Opcional)</h2>
-    <p>Caso o usuário ative voluntariamente o recurso de <em>Gravação Local Simultânea em WAV</em>:</p>
+    <h2 id="s3-title">3. Gravação Local Simultânea (Opcional)</h2>
+    <p id="s3-p1">Caso o usuário ative a função opcional de gravação em WAV:</p>
     <ul>
-      <li>Os arquivos de áudio gravados são salvos exclusivamente no armazenamento interno privado do próprio aplicativo no dispositivo do usuário.</li>
-      <li>Nenhum arquivo gravado é compartilhado automaticamente. Qualquer compartilhamento só ocorre por ação explícita do usuário (utilizando o menu nativo de compartilhamento do Android).</li>
-      <li>O usuário pode excluir suas gravações a qualquer momento diretamente pela interface do aplicativo.</li>
+      <li id="s3-li1">Os arquivos de áudio gravados são salvos exclusivamente no armazenamento interno privado do aplicativo no aparelho.</li>
+      <li id="s3-li2">Nenhum arquivo gravado é enviado ou compartilhado automaticamente. O compartilhamento ocorre apenas por ação explícita do usuário via menu nativo do Android.</li>
     </ul>
 
-    <h2>4. Permissões de Dispositivos Conectados (Bluetooth)</h2>
-    <p>A permissão <code>BLUETOOTH_CONNECT</code> (em versões modernas do Android) é utilizada unicamente para detectar se caixas de som ou fones Bluetooth estão pareados e conectados, permitindo direcionar o áudio com segurança e ativar o kill-switch anti-microfonia em caso de desconexão acidental.</p>
+    <h2 id="s4-title">4. Dispositivos Bluetooth (Permissão BLUETOOTH_CONNECT)</h2>
+    <p id="s4-p1">Utilizada exclusivamente para detectar a conexão de caixas de som Bluetooth, permitindo roteamento de áudio seguro e kill-switch anti-microfonia em caso de desconexão.</p>
 
-    <h2>5. Serviço em Primeiro Plano (Foreground Service)</h2>
-    <p>O aplicativo utiliza um serviço em primeiro plano do tipo <code>microphone</code> exclusivamente enquanto o microfone estiver ativado pelo usuário. Isso garante que a amplificação da sua voz não seja cortada quando a tela do telefone apagar ou bloquear durante uma palestra ou evento. Uma notificação com o botão de interrupção imediata permanece visível durante todo o uso.</p>
+    <h2 id="s5-title">5. Serviço em Primeiro Plano (Foreground Service)</h2>
+    <p id="s5-p1">O aplicativo utiliza um serviço em primeiro plano do tipo microphone exclusivamente enquanto o microfone estiver ativo, garantindo que a fala não seja cortada quando a tela bloquear durante uma palestra. Uma notificação com botão de parada imediata permanece sempre visível.</p>
 
-    <h2>6. Contato e Código Aberto</h2>
-    <p>O OndaMic é um projeto de código aberto e transparente. Você pode auditar o código-fonte completo no GitHub:</p>
-    <p><a href="https://github.com/thepreiss/OndaMic" style="color: var(--cyan); text-decoration: none;">🔗 Repositório Oficial do OndaMic no GitHub</a></p>
+    <h2 id="s6-title">6. Código Aberto e Transparência</h2>
+    <p id="s6-p1">O OndaMic é um projeto de código aberto sob licença MIT. Você pode auditar todo o código-fonte no GitHub:</p>
+    <p><a href="https://github.com/thepreiss/OndaMic" target="_blank" rel="noopener" style="color: var(--cyan); text-decoration: none;" id="repo-link">🔗 Repositório Oficial do OndaMic no GitHub</a></p>
 
     <footer>
-      <p>© 2026 thepreiss & OndaMic Contributors. Distribuído sob Licença MIT.</p>
+      <p id="footer-text">© 2026 thepreiss & Colaboradores do OndaMic. Licença MIT.</p>
     </footer>
   </div>
+
+  <script>
+    const policies = {"pt": {"title": "Política de Privacidade — OndaMic", "badge": "100% OFFLINE • PRIVACIDADE POR DESIGN", "app_info": "Aplicativo: OndaMic — Seu Android vira um microfone (com.ondamic.app)", "last_updated": "Última atualização: Novembro de 2026", "commitment_title": "Compromisso Fundamental:", "commitment_text": "O OndaMic foi desenvolvido com base no princípio de Privacidade Absoluta. O aplicativo é 100% offline e não possui a permissão de acesso à Internet (android.permission.INTERNET). É tecnicamente impossível que sua voz, dados ou telemetria sejam transmitidos para fora do seu aparelho.", "s1_title": "1. Coleta e Transmissão de Dados", "s1_p1": "O OndaMic não coleta, não armazena em servidores remotos, não compartilha e não vende nenhum tipo de dado pessoal, identificador de dispositivo ou conteúdo de voz.", "s1_li1": "Sem Permissão de Internet: O aplicativo não se conecta a nenhum servidor, API ou serviço externo na nuvem.", "s1_li2": "Zero Rastreadores: Não utilizamos nenhum SDK de publicidade, analytics ou telemetria de terceiros.", "s2_title": "2. Uso do Microfone (Permissão RECORD_AUDIO)", "s2_p1": "A permissão de microfone é utilizada exclusivamente em tempo real para as funções solicitadas pelo usuário:", "s2_li1": "Capturar sua voz para amplificá-la imediatamente em caixas de som externas (cabo P2, USB-C ou Bluetooth) ou no alto-falante integrado.", "s2_li2": "Processar sinal digital (DSP local): ganho, filtro anti-microfonia (notch), equalizador de 5 bandas, noise gate e efeitos de palco (brilho, reverb e eco).", "s2_li3": "Todo áudio é processado na memória RAM volátil do seu telefone e descartado instantaneamente após a reprodução.", "s3_title": "3. Gravação Local Simultânea (Opcional)", "s3_p1": "Caso o usuário ative a função opcional de gravação em WAV:", "s3_li1": "Os arquivos de áudio gravados são salvos exclusivamente no armazenamento interno privado do aplicativo no aparelho.", "s3_li2": "Nenhum arquivo gravado é enviado ou compartilhado automaticamente. O compartilhamento ocorre apenas por ação explícita do usuário via menu nativo do Android.", "s4_title": "4. Dispositivos Bluetooth (Permissão BLUETOOTH_CONNECT)", "s4_p1": "Utilizada exclusivamente para detectar a conexão de caixas de som Bluetooth, permitindo roteamento de áudio seguro e kill-switch anti-microfonia em caso de desconexão.", "s5_title": "5. Serviço em Primeiro Plano (Foreground Service)", "s5_p1": "O aplicativo utiliza um serviço em primeiro plano do tipo microphone exclusivamente enquanto o microfone estiver ativo, garantindo que a fala não seja cortada quando a tela bloquear durante uma palestra. Uma notificação com botão de parada imediata permanece sempre visível.", "s6_title": "6. Código Aberto e Transparência", "s6_p1": "O OndaMic é um projeto de código aberto sob licença MIT. Você pode auditar todo o código-fonte no GitHub:", "repo_link": "Repositório Oficial do OndaMic no GitHub", "footer": "© 2026 thepreiss & Colaboradores do OndaMic. Licença MIT."}, "en": {"title": "Privacy Policy — OndaMic", "badge": "100% OFFLINE • PRIVACY BY DESIGN", "app_info": "Application: OndaMic — Your Android becomes a microphone (com.ondamic.app)", "last_updated": "Last updated: November 2026", "commitment_title": "Core Commitment:", "commitment_text": "OndaMic was developed with Absolute Privacy in mind. The application operates 100% offline and does not request Internet access permission (android.permission.INTERNET). It is technically impossible for your voice, personal data, or telemetry to be transmitted outside your device.", "s1_title": "1. Data Collection & Transmission", "s1_p1": "OndaMic does not collect, remotely store, share, or sell any personal data, device identifiers, or voice audio.", "s1_li1": "Zero Internet Permission: The app never connects to any cloud server, API, or external network endpoint.", "s1_li2": "Zero Trackers: No advertising, behavioral analytics, or third-party telemetry SDKs are present in the app.", "s2_title": "2. Microphone Access (RECORD_AUDIO Permission)", "s2_p1": "The microphone permission is used strictly in real time for user-initiated live voice features:", "s2_li1": "Capturing speech to amplify it live through external speakers (3.5mm Aux P2, USB-C DAC, Bluetooth) or built-in speaker.", "s2_li2": "Local digital signal processing (DSP): gain, anti-feedback auto-notch filters, 5-band EQ, noise gate, brightness, reverb, and echo delay.", "s2_li3": "All live audio is processed in volatile device RAM and discarded immediately after playback.", "s3_title": "3. Optional Local WAV Recording", "s3_p1": "If the user optionally activates parallel WAV recording:", "s3_li1": "Audio files are saved strictly to the app's private local internal storage sandbox.", "s3_li2": "No audio files are ever shared automatically. Sharing is strictly user-controlled via Android's native share sheet.", "s4_title": "4. Bluetooth Devices (BLUETOOTH_CONNECT Permission)", "s4_p1": "Used strictly to detect connected Bluetooth speakers/headphones to ensure safe audio routing and trigger the disconnect kill-switch.", "s5_title": "5. Microphone Foreground Service", "s5_p1": "OndaMic runs a microphone foreground service strictly while live amplification is toggled ON, preventing speech interruption when the screen dims or locks during a presentation. A persistent notification with an immediate STOP button is visible at all times.", "s6_title": "6. Open Source & Transparency", "s6_p1": "OndaMic is completely open-source under the MIT license. You can audit the full source code on GitHub:", "repo_link": "Official OndaMic GitHub Repository", "footer": "© 2026 thepreiss & OndaMic Contributors. MIT License."}, "es": {"title": "Política de Privacidad — OndaMic", "badge": "100% OFFLINE • PRIVACIDAD POR DISEÑO", "app_info": "Aplicación: OndaMic — Tu Android se convierte en un micrófono (com.ondamic.app)", "last_updated": "Última actualización: Noviembre de 2026", "commitment_title": "Compromiso Fundamental:", "commitment_text": "OndaMic fue desarrollado bajo el principio de Privacidad Absoluta. La aplicación es 100% offline y no solicita permiso de Internet (android.permission.INTERNET). Es técnicamente imposible que tu voz o datos salgan de tu dispositivo.", "s1_title": "1. Recopilación y Transmisión de Datos", "s1_p1": "OndaMic no recopila, almacena en servidores remotos, comparte ni vende datos personales o grabaciones de voz.", "s1_li1": "Sin Permiso de Internet: La app no se conecta a ningún servidor o servicio en la nube.", "s1_li2": "Cero Rastreadores: No contiene anuncios, analíticas de comportamiento ni SDKs de terceros.", "s2_title": "2. Uso del Micrófono (Permiso RECORD_AUDIO)", "s2_p1": "El micrófono se utiliza estrictamente en tiempo real para amplificar tu voz a través de altavoces externos y aplicar filtros acústicos.", "s2_li1": "Amplificación en vivo para altavoces con cable P2, USB-C o Bluetooth.", "s2_li2": "Procesamiento de señal digital local (DSP): ganancia, anti-acople, ecualizador y efectos de escenario.", "s2_li3": "El audio se procesa en memoria volátil y se descarta inmediatamente tras sonar.", "s3_title": "3. Grabación Local Opcional en WAV", "s3_p1": "Las grabaciones opcionales se guardan exclusivamente en el almacenamiento privado del teléfono.", "s3_li1": "Archivos guardados en el almacenamiento interno privado del dispositivo.", "s3_li2": "Ningún archivo se comparte automáticamente.", "s4_title": "4. Dispositivos Bluetooth (BLUETOOTH_CONNECT)", "s4_p1": "Utilizado exclusivamente para detectar altavoces conectados y activar la protección anti-acople al desconectar.", "s5_title": "5. Servicio en Primer Plano (Foreground Service)", "s5_p1": "Mantiene el micrófono activo mientras la pantalla está bloqueada durante una conferencia.", "s6_title": "6. Código Abierto", "s6_p1": "Proyecto de código abierto bajo licencia MIT disponible en GitHub:", "repo_link": "Repositorio Oficial de OndaMic en GitHub", "footer": "© 2026 thepreiss & Colaboradores de OndaMic. Licencia MIT."}, "fr": {"title": "Politique de Confidentialité — OndaMic", "badge": "100% HORS-LIGNE • CONFIDENTIALITÉ PAR DÉFAUT", "app_info": "Application : OndaMic — Votre Android devient un microphone (com.ondamic.app)", "last_updated": "Dernière mise à jour : Novembre 2026", "commitment_title": "Engagement Fondamental :", "commitment_text": "OndaMic a été conçu selon le principe de Confidentialité Absolue. L'application fonctionne 100% hors-ligne et ne possède pas la permission Internet (android.permission.INTERNET).", "s1_title": "1. Collecte et Transmission des Données", "s1_p1": "OndaMic ne collecte, ne stocke à distance, ne partage et ne vend aucune donnée personnelle ni enregistrement vocal.", "s1_li1": "Zéro Connexion Internet : L'application ne se connecte à aucun serveur ou API cloud.", "s1_li2": "Zéro Traqueur : Aucun SDK publicitaire ou d'analyse n'est intégré.", "s2_title": "2. Utilisation du Microphone (Permission RECORD_AUDIO)", "s2_p1": "Le micro est utilisé exclusivement en direct pour amplifier la voix vers des haut-parleurs externes et appliquer le DSP local.", "s2_li1": "Amplification directe via câble Jack P2, USB-C ou Bluetooth.", "s2_li2": "DSP local : réduction de larsen, égaliseur, gain et réverbération.", "s2_li3": "L'audio est traité en mémoire vive et effacé immédiatement.", "s3_title": "3. Enregistrement WAV Local Optionnel", "s3_p1": "Les enregistrements facultatifs restent strictement confinés sur la mémoire de l'appareil.", "s3_li1": "Fichiers stockés localement sur le téléphone.", "s3_li2": "Aucun transfert automatique de fichier.", "s4_title": "4. Périphériques Bluetooth", "s4_p1": "Détection des enceintes connectées et coupure automatique en cas de déconnexion pour éviter le larsen.", "s5_title": "5. Service en Premier Plan (Foreground Service)", "s5_p1": "Maintient l'amplification active lorsque l'écran s'éteint pendant un discours.", "s6_title": "6. Code Source Ouvert", "s6_p1": "Projet open-source sous licence MIT disponible sur GitHub :", "repo_link": "Dépôt GitHub Officiel d'OndaMic", "footer": "© 2026 thepreiss & Contributeurs OndaMic. Licence MIT."}, "ht": {"title": "Règleman sou Privasite — OndaMic", "badge": "100% SAN ENTÈNÈT • PRIVASITE TOTAL", "app_info": "Aplikasyon: OndaMic — Andwoyid ou tounen yon mikwofòn (com.ondamic.app)", "last_updated": "Dènye modifikasyon: Novanm 2026", "commitment_title": "Angajman Prensipal:", "commitment_text": "OndaMic fèt sou prensip Privasite Total. Aplikasyon an mache 100% san entènèt epi li pa gen pèmisyon pou ale sou entènèt (android.permission.INTERNET). Li enposib teknikman pou vwa ou oswa done ou soti sou telefòn ou.", "s1_title": "1. Koleksyon ak Transmisyon Done", "s1_p1": "OndaMic pa pran, pa estoke sou okenn sèvè, pa pataje epi pa vann okenn done pèsonèl oswa vwa.", "s1_li1": "San Pèmisyon Entènèt: Aplikasyon an pa janm konekte ak okenn sèvè nan nwaj (cloud).", "s1_li2": "Zewo Piblisite ak Espyon: Pa gen okenn zouti piblisite oswa swivi nan aplikasyon an.", "s2_title": "2. Itilizasyon Mikwofòn (Pèmisyon RECORD_AUDIO)", "s2_p1": "Pèmisyon mikwofòn nan sèvi sèlman an dirèk pou anplifye vwa ou sou bwat son ak pou aplike efè odyo lokal yo.", "s2_li1": "Anplifye vwa an dirèk sou bwat son via fil P2 (Aux), USB-C oswa Bluetooth.", "s2_li2": "Tretman odyo lokal: kontwòl volim, retire siflèt mikwo (anti-feedback), egalizatè ak efè vwa.", "s2_li3": "Tout son pase nan memwa RAM telefòn nan epi efase touswit apre li fin jwe.", "s3_title": "3. Anrejistreman WAV Lokal (Opsyonèl)", "s3_p1": "Si ou chwazi anrejistre vwa ou pandan w ap pale:", "s3_li1": "Fichye son yo rete sèlman nan memwa prive telefòn ou.", "s3_li2": "Okenn fichye pa janm voye sou entènèt poukont li.", "s4_title": "4. Bwat Son Bluetooth (Pèmisyon BLUETOOTH_CONNECT)", "s4_p1": "Sèvi sèlman pou rekonèt si bwat son Bluetooth konekte epi pou fèmen mikwo a si fil la dekonekte.", "s5_title": "5. Sèvis an Premye Plan (Foreground Service)", "s5_p1": "Kenbe mikwo a ap mache menm lè ekran telefòn nan etenn pandan yon diskou oswa yon reyinyon.", "s6_title": "6. Kòd Louvri (Open Source)", "s6_p1": "OndaMic se yon pwojè kòd louvri anba lisans MIT sou GitHub:", "repo_link": "Repozitwa Ofisyèl OndaMic sou GitHub", "footer": "© 2026 thepreiss ak Kontribitè OndaMic. Lisans MIT."}, "sw": {"title": "Sera ya Faragha — OndaMic", "badge": "100% BILA MTANDAO • FARAGHA KAMILI", "app_info": "Programu: OndaMic — Android yako inakuwa kipaza sauti (com.ondamic.app)", "last_updated": "Ilisasishwa mwisho: Novemba 2026", "commitment_title": "Ahadi Yetu Kuu:", "commitment_text": "OndaMic iliundwa kwa misingi ya Faragha Kamili. Programu inafanya kazi 100% bila mtandao na haina ruhusa ya mtandao (android.permission.INTERNET). Sauti yako au data haziwezi kutoka nje ya simu yako kamwe.", "s1_title": "1. Ukusanyaji na Usambazaji wa Data", "s1_p1": "OndaMic haikusanyi, haihifadhi mbali, haishiriki wala haiuzi taarifa zozote za kibinafsi au rekodi za sauti.", "s1_li1": "Bila Mtandao: Programu haiunganishwi na seva au mtandao wowote wa nje.", "s1_li2": "Bila Vifuatiliaji: Hakuna matangazo wala SDK za ufuatiliaji ndani ya programu.", "s2_title": "2. Matumizi ya Maikrofoni (RECORD_AUDIO)", "s2_p1": "Maikrofoni inatumika moja kwa moja kwa kukuza sauti kuelekea spika za nje na kuchakata vichujio vya kuzuia mwangwi.", "s2_li1": "Kukuza sauti moja kwa moja kwenye spika kupitia kebo ya Aux (P2), USB-C au Bluetooth.", "s2_li2": "Uchakataji wa sauti ndani ya simu: Kuzuia mwangwi (anti-feedback), kusawazisha sauti (EQ) na madoido.", "s2_li3": "Sauti huchakatwa kwenye kumbukumbu ya muda ya simu na kufutwa mara moja.", "s3_title": "3. Rekodi ya Sauti ya Ndani (Si Lazima)", "s3_p1": "Rekodi huhifadhiwa pekee kwenye kumbukumbu ya ndani ya simu yako.", "s3_li1": "Faili hubaki ndani ya simu yako pekee.", "s3_li2": "Hakuna faili inayotumwa popote mtandaoni kiotomatiki.", "s4_title": "4. Vifaa vya Bluetooth", "s4_p1": "Hutambua spika za Bluetooth na kuzima sauti mara moja iwapo kebo itachomoka.", "s5_title": "5. Huduma ya Mandharinyuma (Foreground Service)", "s5_p1": "Inaruhusu maikrofoni kuendelea kufanya kazi wakati skrini imezimwa kwenye hotuba.", "s6_title": "6. Chanzo Huria (Open Source)", "s6_p1": "Mradi wa chanzo huria chini ya leseni ya MIT kwenye GitHub:", "repo_link": "Hifadhi Rasmi ya OndaMic kwenye GitHub", "footer": "© 2026 thepreiss & Wachangiaji wa OndaMic. Leseni ya MIT."}, "de": {"title": "Datenschutzerklärung — OndaMic", "badge": "100% OFFLINE • DATENSCHUTZ DURCH DESIGN", "app_info": "App: OndaMic — Ihr Android wird zum Mikrofon (com.ondamic.app)", "last_updated": "Stand: November 2026", "commitment_title": "Grundsatzversprechen:", "commitment_text": "OndaMic wurde nach dem Prinzip des absoluten Datenschutzes entwickelt. Die App arbeitet 100 % offline und fordert keine Internetberechtigung an (android.permission.INTERNET). Ihre Sprachdaten verlassen niemals Ihr Gerät.", "s1_title": "1. Datenerfassung und Übertragung", "s1_p1": "OndaMic erfasst, speichert, teilt oder verkauft keinerlei personenbezogene Daten oder Sprachaufnahmen.", "s1_li1": "Keine Internetberechtigung: Keine Verbindung zu Cloud-Servern oder externen APIs.", "s1_li2": "Keine Tracker: Keine Werbe- oder Analyse-SDKs von Drittanbietern.", "s2_title": "2. Mikrofonnutzung (RECORD_AUDIO)", "s2_p1": "Wird ausschließlich in Echtzeit zur Sprachverstärkung an Lautsprecher und für lokale DSP-Filter verwendet.", "s2_li1": "Echtzeit-Verstärkung über 3,5-mm-Klinke (P2), USB-C oder Bluetooth.", "s2_li2": "Lokale Signalverarbeitung: Rückkopplungsschutz, EQ, Rauschunterdrückung.", "s2_li3": "Verarbeitung im RAM und sofortige Verwerfung nach der Wiedergabe.", "s3_title": "3. Optionale lokale WAV-Aufnahme", "s3_p1": "Dateien werden ausschließlich im privaten Speicher des Geräts gespeichert.", "s3_li1": "Gespeichert im geschützten internen Speicher.", "s3_li2": "Kein automatischer Datentransfer.", "s4_title": "4. Bluetooth-Geräte", "s4_p1": "Erkennt verbundene Lautsprecher und schützt vor Rückkopplung beim Trennen.", "s5_title": "5. Vordergrunddienst (Foreground Service)", "s5_p1": "Hält die Verstärkung bei ausgeschaltetem Bildschirm während Reden aktiv.", "s6_title": "6. Open Source", "s6_p1": "Open-Source-Projekt unter MIT-Lizenz auf GitHub:", "repo_link": "Offizielles OndaMic GitHub Repository", "footer": "© 2026 thepreiss & OndaMic Contributors. MIT-Lizenz."}, "zh": {"title": "隐私政策 — OndaMic", "badge": "100% 离线 • 隐私原生设计", "app_info": "应用程序：OndaMic — 手机变身专业麦克风 (com.ondamic.app)", "last_updated": "最后更新：2026年11月", "commitment_title": "核心承诺：", "commitment_text": "OndaMic 基于绝对隐私原则开发。本应用完全 100% 离线运行，未申请任何互联网访问权限 (android.permission.INTERNET)。您的声音、数据或日志在技术上绝不可能离开您的设备。", "s1_title": "1. 数据收集与传输", "s1_p1": "OndaMic 不收集、不远程存储、不共享也不出售任何个人数据或语音音频。", "s1_li1": "零网络权限：应用从不连接任何云服务器或外部网络端点。", "s1_li2": "零追踪器：应用内不存在任何广告或第三方分析 SDK。", "s2_title": "2. 麦克风访问权限 (RECORD_AUDIO)", "s2_p1": "麦克风权限严格仅用于用户触发的实时扩音功能：", "s2_li1": "通过 3.5mm 音频线 (AUX)、Type-C 声卡或蓝牙实时将声音扩音至外部音箱。", "s2_li2": "本地数字信号处理 (DSP)：啸叫抑制、5段均衡器、混响与降噪。", "s2_li3": "所有音频均在设备运行内存中即时处理，播放后立即销毁。", "s3_title": "3. 可选本地 WAV 录音", "s3_p1": "录音文件严格保存在设备内部私有存储沙箱中，由用户完全自主控制。", "s3_li1": "仅保存在设备私有内部存储中。", "s3_li2": "绝不自动上传或共享任何文件。", "s4_title": "4. 蓝牙设备 (BLUETOOTH_CONNECT)", "s4_p1": "严格仅用于检测连接的蓝牙音箱，并在意外断开时触发断线防啸叫静音。", "s5_title": "5. 麦克风前台服务 (Foreground Service)", "s5_p1": "在麦克风开启时保持前台服务，防止演讲期间因锁屏导致扩音中断。", "s6_title": "6. 开源透明", "s6_p1": "OndaMic 基于 MIT 协议完全开源，代码托管于 GitHub：", "repo_link": "OndaMic 官方 GitHub 仓库", "footer": "© 2026 thepreiss & OndaMic 贡献者。基于 MIT 协议。"}, "ja": {"title": "プライバシーポリシー — OndaMic", "badge": "100% オフライン • プライバシー保護設計", "app_info": "アプリ：OndaMic — スマホがマイクになる (com.ondamic.app)", "last_updated": "最終更新日：2026年11月", "commitment_title": "基本方針：", "commitment_text": "OndaMicは絶対的なプライバシー保護の原則に基づいて開発されています。本アプリは100%オフラインで動作し、インターネットアクセス権限（android.permission.INTERNET）を一切持ちません。音声データが外部に送信されることは技術的に不可能です。", "s1_title": "1. データの収集および送信", "s1_p1": "OndaMicは、個人データ、デバイス識別子、音声データを収集、遠隔保存、共有、販売することは一切ありません。", "s1_li1": "通信権限ゼロ：クラウドサーバーや外部APIとの通信は一切行いません。", "s1_li2": "トラッカーゼロ：広告や第三者のアクセス解析SDKは一切含まれていません。", "s2_title": "2. マイクの利用 (RECORD_AUDIO 権限)", "s2_p1": "外部スピーカー（3.5mm AUX、USB-C、Bluetooth）へのリアルタイム拡声および端末内DSP処理にのみ使用されます。", "s2_li1": "リアルタイム音声拡声。", "s2_li2": "ハウリング抑制、EQ、リバーブなどの端末内DSP処理。", "s2_li3": "音声データはメモリ内で即時処理され、再生後直ちに破棄されます。", "s3_title": "3. 任意のローカルWAV録音", "s3_p1": "録音ファイルは端末の内部ストレージ内にのみ保存され、外部へ自動送信されることはありません。", "s3_li1": "端末内保護ストレージに保存。", "s3_li2": "自動送信は行われません。", "s4_title": "4. Bluetooth接続", "s4_p1": "Bluetoothスピーカーの接続検知と、切断時のハウリング防止ミュートに使用されます。", "s5_title": "5. フォアグラウンドサービス", "s5_p1": "スピーチ中に画面が消灯しても拡声を維持するために使用されます。", "s6_title": "6. オープンソース", "s6_p1": "OndaMicはMITライセンスのオープンソースです：", "repo_link": "OndaMic GitHub 公式リポジトリ", "footer": "© 2026 thepreiss & OndaMic Contributors. MIT License."}, "ar": {"title": "سياسة الخصوصية — OndaMic", "badge": "100% بدون إنترنت • الخصوصية أولاً", "app_info": "التطبيق: OndaMic — ميكروفون أندرويد لايف (com.ondamic.app)", "last_updated": "آخر تحديث: نوفمبر 2026", "commitment_title": "التزامنا الأساسي:", "commitment_text": "تم تطوير OndaMic على مبدأ الخصوصية المطلقة. يعمل التطبيق بدون إنترنت بنسبة 100% ولا يطلب إذن الإنترنت (android.permission.INTERNET). من المستحيل تقنيًا إرسال صوتك أو بياناتك خارج جهازك.", "s1_title": "1. جمع البيانات ونقلها", "s1_p1": "لا يجمع OndaMic أو يخزن أو يشارك أو يبيع أي بيانات شخصية أو تسجيلات صوتية.", "s1_li1": "بدون إذن إنترنت: لا يتصل التطبيق بأي خوادم خارجية إطلاقاً.", "s1_li2": "بدون متتبعات: لا توجد إعلانات أو حزم تحليلات تابعة لجهات خارجية.", "s2_title": "2. استخدام الميكروفون (إذن RECORD_AUDIO)", "s2_p1": "يُستخدم الميكروفون فقط في الوقت الفعلي لتضخيم الصوت للسماعات ومعالجة الإشارات الرقمية محلياً.", "s2_li1": "تضخيم مباشر للسماعات عبر كابل AUX أو USB-C أو البلوتوث.", "s2_li2": "معالجة محلية: منع الصفير الصوتي ومؤثرات الصوت.", "s2_li3": "تتم معالجة الصوت في ذاكرة الجهاز وتُحذف فوراً بعد التشغيل.", "s3_title": "3. التسجيل المحلي الاختياري", "s3_p1": "تُحفظ ملفات التسجيل الاختيارية حصرياً على ذاكرة الهاتف الداخلية الخاصة بالتطبيق.", "s3_li1": "حفظ محلي خاص على الهاتف.", "s3_li2": "لا تتم مشاركة أي ملف تلقائياً.", "s4_title": "4. أجهزة البلوتوث", "s4_p1": "تحديد السماعات المتصلة وكتم الصوت التلقائي عند انقطاع الاتصال لمنع الصفير.", "s5_title": "5. خدمة التشغيل في المقدمة (Foreground Service)", "s5_p1": "لضمان استمرار عمل الميكروفون أثناء قفل الشاشة في المحاضرات.", "s6_title": "6. مفتوح المصدر", "s6_p1": "مشروع مفتوح المصدر بترخيص MIT متاح على GitHub:", "repo_link": "مستودع OndaMic الرسمي على GitHub", "footer": "© 2026 thepreiss ومساهمو OndaMic. ترخيص MIT."}};
+
+    const rtlLangs = ["ar", "fa", "he", "ur"];
+
+    function detectUserLanguage() {
+      // Check query param e.g. ?lang=es
+      const urlParams = new URLSearchParams(window.location.search);
+      const paramLang = urlParams.get('lang');
+      if (paramLang) return paramLang.toLowerCase();
+
+      // Check browser navigator language
+      const navLang = (navigator.language || navigator.userLanguage || "pt").toLowerCase();
+      const code = navLang.split("-")[0];
+      return code;
+    }
+
+    function changeLanguage(langCode) {
+      const select = document.getElementById("lang-select");
+      if (select) select.value = langCode;
+
+      const container = document.getElementById("main-content");
+      if (rtlLangs.includes(langCode)) {
+        container.setAttribute("dir", "rtl");
+        document.documentElement.setAttribute("dir", "rtl");
+      } else {
+        container.removeAttribute("dir");
+        document.documentElement.removeAttribute("dir");
+      }
+
+      // Pick exact policy or fallback to English
+      const data = policies[langCode] || policies["en"] || policies["pt"];
+
+      document.getElementById("page-title").innerText = data.title;
+      document.getElementById("doc-title").innerText = data.title;
+      document.getElementById("badge-text").innerText = data.badge;
+      document.getElementById("app-info").innerText = data.app_info;
+      document.getElementById("last-updated").innerText = data.last_updated;
+      document.getElementById("commitment-title").innerText = data.commitment_title;
+      document.getElementById("commitment-text").innerText = " " + data.commitment_text;
+
+      document.getElementById("s1-title").innerText = data.s1_title;
+      document.getElementById("s1-p1").innerText = data.s1_p1;
+      document.getElementById("s1-li1").innerText = data.s1_li1;
+      document.getElementById("s1-li2").innerText = data.s1_li2;
+
+      document.getElementById("s2-title").innerText = data.s2_title;
+      document.getElementById("s2-p1").innerText = data.s2_p1;
+      document.getElementById("s2-li1").innerText = data.s2_li1;
+      document.getElementById("s2-li2").innerText = data.s2_li2;
+      document.getElementById("s2-li3").innerText = data.s2_li3;
+
+      document.getElementById("s3-title").innerText = data.s3_title;
+      document.getElementById("s3-p1").innerText = data.s3_p1;
+      document.getElementById("s3-li1").innerText = data.s3_li1;
+      document.getElementById("s3-li2").innerText = data.s3_li2;
+
+      document.getElementById("s4-title").innerText = data.s4_title;
+      document.getElementById("s4-p1").innerText = data.s4_p1;
+
+      document.getElementById("s5-title").innerText = data.s5_title;
+      document.getElementById("s5-p1").innerText = data.s5_p1;
+
+      document.getElementById("s6-title").innerText = data.s6_title;
+      document.getElementById("s6-p1").innerText = data.s6_p1;
+      document.getElementById("repo-link").innerText = "🔗 " + data.repo_link;
+
+      document.getElementById("footer-text").innerText = data.footer;
+    }
+
+    // Auto-detect on initial load
+    window.addEventListener("DOMContentLoaded", () => {
+      const initialLang = detectUserLanguage();
+      const availableOptions = Array.from(document.getElementById("lang-select").options).map(o => o.value);
+      if (availableOptions.includes(initialLang)) {
+        changeLanguage(initialLang);
+      } else {
+        changeLanguage("en");
+      }
+    });
+  </script>
 </body>
 </html>
