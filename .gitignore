@@ -1,12 +1,59 @@
-*.iml
-.gradle
-/local.properties
-/.idea
-.DS_Store
-/build
-/app/build
-/captures
-.externalNativeBuild
-.cxx
+# Built application files
 *.apk
+*.aar
+*.ap_
 *.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+app/build/
+
+# Gradle files
+.gradle/
+buildOutputCleanup/
+
+# Local configuration file (sdk.dir, keystores, etc.)
+local.properties
+
+# Proguard / R8 mapping files
+proguard/
+
+# Android Studio / IntelliJ IDEA
+*.iml
+.idea/
+.idea/libraries/
+.idea/modules.xml
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/caches/
+
+# Device & Profiler captures
+captures/
+*.hprof
+
+# Native C/C++ builds (if added in the future)
+.externalNativeBuild
+.cxx/
+cmake-build-*/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Keystores & Signing secrets
+*.jks
+*.keystore
+*.key
+signing.properties
+
+# Local recordings generated during on-device testing
+recordings/
